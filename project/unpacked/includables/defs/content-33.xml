@@ -1,33 +1,14 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="content">
-              <div class="widget-content">
-              &lt;style type='text/css'&gt;
-                #intro-author-wrap{display:block} 
-                .author-intro-widgets .right-side-widget .widget:nth-child(2) .service-content{
-    background-image: url(<data:sourceUrl />);
-}
-                &lt;/style&gt;
-                <div class="service-content">
-                  <div class="service-content-box-color" />
-                 <div class="service-content-details">
-                  <h3 class="service-title"><data:title /></h3>
-                  <b:if cond="data:caption">
-                    <p class="service-snippet"><data:caption /></p>
-                  </b:if>
-                    <b:if cond="data:link">
-                  <div class="service-action">
-                    &lt;script type="text/javascript"&gt;
-                    var slc = "<data:link />",
-                    sma = slc.split("#"),
-                    sli = sma[0].trim(),
-                    slt = sma[1].trim(),
-                    cod = "&lt;a href="+ sli +"&gt;"+ slt +"&lt;/a&gt;";
-                    document.write(cod)
-                    &lt;/script&gt;
-                  </div>
-                </b:if>
-                  </div>
-
-                </div>
-              </div>
-            </b:includable>
-   
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+  <div class="widget-content">
+    <b:tag cond="data:link" expr:href="data:link" name="a">
+      <img expr:alt="data:title" expr:height="data:height" expr:id="data:widget.instanceId + &quot;_img&quot;" expr:src="data:sourceUrl" expr:width="data:width">
+        <b:attr cond="data:sourceSet" expr:value="data:sourceSet" name="srcset" />
+      </img>
+    </b:tag>
+    <br />
+    <b:if cond="data:caption">
+      <span class="caption"><data:caption /></span>
+    </b:if>
+  </div>
+</b:includable>
+          

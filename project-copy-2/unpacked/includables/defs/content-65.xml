@@ -1,4 +1,0 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="content" var="post">
-            <b:include name="snippetedPostContent" />
-          </b:includable>
-            

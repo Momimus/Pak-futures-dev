@@ -517,7 +517,17 @@ body#layout .footer-about-area, body#layout .foot-bar-social, body#layout #intro
  <!--SECTION sections/home-ad-top2.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f686f6d652d61642d746f70322e786d6c222c226964656e746966696572223a22686f6d652d61642d746f7032227d-->
     </div>
     <div class="clearfix" />
-   <b:if cond="data:view.isHomepage"> 
+   <b:if cond="data:view.isHomepage">
+    <!-- Premium Jobs Section -->
+    <div class="row job-carousel-row">
+      <!--SECTION sections/premium-jobs-section.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f7072656d69756d2d6a6f62732d73656374696f6e2e786d6c222c226964656e746966696572223a227072656d69756d2d6a6f62732d73656374696f6e227d-->
+    </div>
+    <div class="clearfix" />
+    <!-- Senior Jobs Section -->
+    <div class="row job-carousel-row">
+      <!--SECTION sections/senior-jobs-section.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f73656e696f722d6a6f62732d73656374696f6e2e786d6c222c226964656e746966696572223a2273656e696f722d6a6f62732d73656374696f6e227d-->
+    </div>
+    <div class="clearfix" /> 
      <div class="author-intro-widgets-duo">
          <!--SECTION sections/head-text5.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f686561642d74657874352e786d6c222c226964656e746966696572223a22686561642d7465787435227d-->
       <div class="container row">
@@ -573,21 +583,26 @@ body#layout .footer-about-area, body#layout .foot-bar-social, body#layout #intro
 
   </b:if>
 <!-- Footer Wrapper -->
-<div id="footer-wrapper"> 
-  <div class="primary-footer">
+<footer class="footer">
+  <div class="gradient-merge"></div>
+  <div class="footer-content">
+    <div id="footer-wrapper"> 
+      <div class="primary-footer">
+          <div class="container row">
+            <!--SECTION sections/footer-about-area.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f666f6f7465722d61626f75742d617265612e786d6c222c226964656e746966696572223a22666f6f7465722d61626f75742d61726561227d-->
+     <!-- Footer Social --> 
+            <!--SECTION sections/foot-bar-social.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f666f6f742d6261722d736f6369616c2e786d6c222c226964656e746966696572223a22666f6f742d6261722d736f6369616c227d-->
+          </div>
+        </div>
+    <div class="clearfix" />
       <div class="container row">
-        <!--SECTION sections/footer-about-area.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f666f6f7465722d61626f75742d617265612e786d6c222c226964656e746966696572223a22666f6f7465722d61626f75742d61726561227d-->
- <!-- Footer Social --> 
-        <!--SECTION sections/foot-bar-social.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f666f6f742d6261722d736f6369616c2e786d6c222c226964656e746966696572223a22666f6f742d6261722d736f6369616c227d-->
+        <!--SECTION sections/menu-footer.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f6d656e752d666f6f7465722e786d6c222c226964656e746966696572223a226d656e752d666f6f746572227d-->
+        <div class="copyright-area">Copyright © <!--SCRIPT script-4 (body) | PCK_PLACEHOLDER 7b226b696e64223a22736372697074222c226964223a227363726970742d34222c226c6f636174696f6e223a22626f6479222c226174747273223a7b2274797065223a22746578742f6a617661736372697074227d7d--> <a expr:href="data:blog.homepageUrl"><data:blog.title /></a>
+        </div>
       </div>
     </div>
-<div class="clearfix" />
-  <div class="container row">
-    <!--SECTION sections/menu-footer.xml | PCK_PLACEHOLDER 7b226b696e64223a2273656374696f6e222c2266696c65223a2273656374696f6e732f6d656e752d666f6f7465722e786d6c222c226964656e746966696572223a226d656e752d666f6f746572227d-->
-    <div class="copyright-area">Copyright © <!--SCRIPT script-4 (body) | PCK_PLACEHOLDER 7b226b696e64223a22736372697074222c226964223a227363726970742d34222c226c6f636174696f6e223a22626f6479222c226174747273223a7b2274797065223a22746578742f6a617661736372697074227d7d--> <a expr:href="data:blog.homepageUrl"><data:blog.title /></a>
-    </div>
   </div>
-</div>
+</footer>
 
   </div>
 <b:if cond="data:view.isSingleItem">
@@ -606,7 +621,9 @@ body#layout .footer-about-area, body#layout .foot-bar-social, body#layout #intro
 <!--SCRIPT script-6 (body) | PCK_PLACEHOLDER 7b226b696e64223a22736372697074222c226964223a227363726970742d36222c226c6f636174696f6e223a22626f6479222c226174747273223a7b2274797065223a22746578742f6a617661736372697074227d7d-->
 
 <!-- Facebook SDK -->
-<!--SCRIPT script-7 (body) | PCK_PLACEHOLDER 7b226b696e64223a22736372697074222c226964223a227363726970742d37222c226c6f636174696f6e223a22626f6479222c226174747273223a7b2274797065223a22746578742f6a617661736372697074227d7d-->  
+<!--SCRIPT script-7 (body) | PCK_PLACEHOLDER 7b226b696e64223a22736372697074222c226964223a227363726970742d37222c226c6f636174696f6e223a22626f6479222c226174747273223a7b2274797065223a22746578742f6a617661736372697074227d7d-->
+<!-- Job Carousel Script -->
+<!--SCRIPT script-8 (body) | PCK_PLACEHOLDER 7b226b696e64223a22736372697074222c226964223a227363726970742d38222c226c6f636174696f6e223a22626f6479222c226174747273223a7b2274797065223a22746578742f6a617661736372697074227d7d-->
 <!-- Overlay and Back To Top --> 
   <div class="back-top" title="Back to Top" />
 </body>

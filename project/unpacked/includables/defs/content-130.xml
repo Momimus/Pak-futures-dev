@@ -1,15 +1,14 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-      <div class="widget-content" role="search">
-        <div class="hero-header-search">
-          <form class="search-form" expr:action="data:blog.searchUrl" role="search">
-            <b:attr cond="not data:view.isPreview" name="target" value="_top" />
-            <b:include name="urlParamsAsFormInput" />
-            <input autocomplete="off" class="search-input" expr:placeholder="&quot;Find best opportunity&quot;" name="q" type="search" value="" />
-            <button aria-label="Search" id="search-submit" type="submit" value="">
-              <i aria-hidden="true" class="fa-solid fa-magnifying-glass" />
-            </button>
-          </form>
-        </div>
-      </div>
-    </b:includable>
-             
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+  <div class="widget-content">
+    <b:tag cond="data:link" expr:href="data:link" name="a">
+      <img expr:alt="data:title" expr:height="data:height" expr:id="data:widget.instanceId + &quot;_img&quot;" expr:src="data:sourceUrl" expr:width="data:width">
+        <b:attr cond="data:sourceSet" expr:value="data:sourceSet" name="srcset" />
+      </img>
+    </b:tag>
+    <br />
+    <b:if cond="data:caption">
+      <span class="caption"><data:caption /></span>
+    </b:if>
+  </div>
+</b:includable>
+          

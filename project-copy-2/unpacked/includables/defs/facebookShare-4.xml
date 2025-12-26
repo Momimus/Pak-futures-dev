@@ -1,6 +1,0 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="facebookShare">
-  <b:with value="&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;" var="onclick">
-    <b:include name="platformShare" />
-  </b:with>
-</b:includable>
-            

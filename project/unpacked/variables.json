@@ -24,6 +24,10 @@
     "text": "Variable definitions"
   },
   {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
     "entry_type": "variable",
     "group": null,
     "name": "keycolor",

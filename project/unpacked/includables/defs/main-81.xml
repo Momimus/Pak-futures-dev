@@ -1,5 +1,15 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="main">
-  <b:include name="widget-title" />
-  <b:include name="content" />
-</b:includable>
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="main" var="this">
+              <b:include name="searchMessage" />
+              <div class="blog-posts hfeed container">
+                <b:class cond="data:view.isMultipleItems" name="index-post-wrap" />
+                <b:class cond="data:view.isSingleItem" name="item-post-wrap" />
+                <b:tag class="grid-posts" cond="data:view.isMultipleItems" name="div">
+                  <b:loop index="i" values="data:posts" var="post">
+                    <b:include data="post" name="postCommentsAndAd" />
+                  </b:loop>
+                </b:tag>
+              </div>
+              <b:include cond="data:view.isMultipleItems" name="indexBlogPager" />
+              <b:include name="feedLinks" />
+            </b:includable>
             

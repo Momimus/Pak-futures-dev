@@ -1,8 +1,0 @@
-<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML25" locked="false" title="(sibForm) #title=(Follow by Email) #caption=(Get Notified About Next Update Direct to Your inbox)" type="HTML" version="2" visible="false">
-            <b:widget-settings>
-              <b:widget-setting name="content">https://be075e8d.sibforms.com/serve/MUIEAM0UKoN8OYM0JwbWNEffDqBgBgDKuJOt8MUT4xRoZt3QnGcSULt4SVKnDSJl30T7PZ-eKk4PXiHDyV3BU0fJr73eLdUGXhTLY5oavcO0I0DDaUlnd-XplEBhe9k1b5XDK9wJAH9gvy-GA7URRf3g5eyiogd8rwaB4u3ZnL-pD73DxW7tElpKRwOK3unn0IDnjxF4QWXAhNjJ</b:widget-setting>
-            </b:widget-settings>
-            <!--INCLUDABLE includables/defs/main-112.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3131322e786d6c222c226964656e746966696572223a226d61696e227d-->
-            <!--INCLUDABLE includables/defs/content-86.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d38362e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
-          </b:widget>
-          

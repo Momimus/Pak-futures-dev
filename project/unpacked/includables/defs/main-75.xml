@@ -1,5 +1,11 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="main">
-                 <b:include name="widget-title" />
-                 <p class="widget-content"><data:content /></p>
-               </b:includable>
-          
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="main" var="this">
+      <div class="header-widget">
+  <b:includable id="description">
+          <!-- Don't show description on the item page -->
+          <b:include cond="not data:view.isSingleItem" name="super.description" />
+        </b:includable>
+        <b:include cond="data:imagePlacement in {&quot;REPLACE&quot;, &quot;BEFORE_DESCRIPTION&quot;}" name="image" />
+        <b:include cond="data:imagePlacement == &quot;BEHIND&quot;" name="title" />
+      </div>
+    </b:includable>
+           

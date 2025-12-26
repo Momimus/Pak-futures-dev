@@ -1,6 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="manageComments">
-  <a expr:href="data:post.manageCommentsUrl" expr:onclick="data:post.manageCommentsUrlOnclick">
-    <b:message name="messages.manageComments" />
-  </a>
-</b:includable>
-            

@@ -1,8 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="platformShare">
-  <a expr:class="&quot;goog-inline-block sharing-&quot; + data:platform.key" expr:data-url="data:originalUrl" expr:href="data:shareUrl + &quot;&amp;target=&quot; + data:platform.target" expr:onclick="data:onclick ? data:onclick : &quot;&quot;" expr:title="data:platform.shareMessage" target="_blank">
-    <span class="share-button-link-text">
-      <data:platform.shareMessage />
-    </span>
-  </a>
-</b:includable>
-            

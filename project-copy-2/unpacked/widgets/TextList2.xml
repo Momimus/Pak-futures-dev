@@ -1,5 +1,0 @@
-<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="TextList2" locked="false" title="Facebook SDK (Plugin)" type="TextList" visible="false">
-            <!--INCLUDABLE includables/defs/main-111.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3131312e786d6c222c226964656e746966696572223a226d61696e227d-->
-            <!--INCLUDABLE includables/defs/content-85.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d38352e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
-          </b:widget>
-          

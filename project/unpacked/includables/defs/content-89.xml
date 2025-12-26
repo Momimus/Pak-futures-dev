@@ -1,8 +1,11 @@
 <b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-      <div class="widget-content">
-        <b:class expr:name="data:this.display + &quot;-label&quot;" />
-        <b:include cond="data:this.display == &quot;list&quot;" name="list" />
-        <b:include cond="data:this.display == &quot;cloud&quot;" name="list" />
+      <div class="widget-content" role="search">
+        <form class="search-form" expr:action="data:blog.searchUrl">
+          <b:attr cond="not data:view.isPreview" name="target" value="_top" />
+          <b:include name="urlParamsAsFormInput" />
+          <input autocomplete="off" class="search-input" expr:aria-label="data:messages.searchThisBlog" expr:placeholder="data:messages.searchThisBlog" expr:value="data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;" name="q" />
+          <input class="search-action" expr:value="data:messages.search.escaped" type="submit" />  
+        </form>
       </div>
     </b:includable>
             

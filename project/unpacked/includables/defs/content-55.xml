@@ -1,8 +1,11 @@
 <b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-      <div class="widget-content">
-        <b:class expr:name="data:this.display + &quot;-label&quot;" />
-        <b:include cond="data:this.display == &quot;list&quot;" name="list" />
-        <b:include cond="data:this.display == &quot;cloud&quot;" name="list" />
-      </div>
-    </b:includable>
-            
+  <li>
+    <b:tag cond="data:link" expr:href="data:link" name="a">
+      <img expr:alt="data:title" expr:height="data:height" expr:id="data:widget.instanceId + &quot;_img&quot;" expr:src="data:sourceUrl" expr:width="data:width">
+        <b:attr cond="data:sourceSet" expr:value="data:sourceSet" name="srcset" />
+        <b:attr cond="data:caption" expr:value="data:caption" name="data-caption" />
+      </img>
+    </b:tag>
+  </li>
+</b:includable>
+              

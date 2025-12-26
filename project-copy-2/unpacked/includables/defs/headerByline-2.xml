@@ -1,8 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="headerByline" var="post">
-              <!-- Post Header Meta -->
-                <div class="post-meta">
-                  <b:include data="post" name="postAuthor" />
-                  <b:include data="post" name="postTimestamp" />
-                </div>
-            </b:includable>
-            

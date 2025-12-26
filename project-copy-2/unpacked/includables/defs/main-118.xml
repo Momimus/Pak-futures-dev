@@ -1,6 +1,0 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="main" var="this">
-      <b:with value="data:messages.archive" var="defaultTitle">
-        <b:include name="super.main" />
-      </b:with>
-    </b:includable>
-            

@@ -1,23 +1,18 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="content">
-              <div class="widget-content">
-&lt;style type='text/css'&gt;
-                #brand-services-wrap{display:block}
-                &lt;/style&gt;
-                <ul>
-                  <b:loop values="data:links" var="link">
-                    <li class="toggle">
-                    <div class="toggle-title">
-                    <h3>
-<i />
-<span class="title-name"><data:link.name /></span>
-</h3>
-</div>
-                      <div class="toggle-inner">
-<p><data:link.target /></p>
-</div>
-                    </li>
-                  </b:loop>
-                </ul>
-              </div>
-            </b:includable>
-   
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="content">
+          &lt;script type='text/javascript'&gt;
+          //&lt;![CDATA[
+          <b:loop values="data:links" var="link">
+            <b:if cond="data:link.name == &quot;relatedPostsNum&quot;">
+              var relatedPostsNum = <data:link.target />;
+            </b:if>
+            <b:if cond="data:link.name == &quot;relatedPostsText&quot;">
+              var relatedPostsText = "<data:link.target />";
+            </b:if>
+            <b:if cond="data:link.name == &quot;loadMorePosts&quot;">
+              var loadMorePosts = "<data:link.target />";
+            </b:if>
+          </b:loop>
+          //]]&gt;
+          &lt;/script&gt;
+        </b:includable>
+          

@@ -1,8 +1,9 @@
 <b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-      <div class="widget-content">
-        <b:class expr:name="data:this.display + &quot;-label&quot;" />
-        <b:include cond="data:this.display == &quot;list&quot;" name="list" />
-        <b:include cond="data:this.display == &quot;cloud&quot;" name="list" />
+      <div class="widget_content">
+        <b:class expr:name="data:this.style" />
+        <b:include cond="data:this.style == &quot;HIERARCHY&quot;" name="hierarchy" />
+        <b:include cond="data:this.style == &quot;FLAT&quot;" name="flat" />
+        <b:include cond="data:this.style == &quot;MENU&quot;" name="menu" />
       </div>
     </b:includable>
             

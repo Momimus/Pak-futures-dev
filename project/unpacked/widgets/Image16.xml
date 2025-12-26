@@ -1,4 +1,4 @@
-<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image16" locked="true" title="Sponsorship" type="Image" version="2" visible="true">
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image16" locked="false" title="Sponsorship" type="Image" version="2" visible="true">
             <b:widget-settings>
               <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEhmOptMTaQIopo8cCtT_ihFgILeXC2INcihX429bGmm2Hl52VCPbtH3lMwkgqiB1OZ91t_Vz1Rzdg7A4WXETAqwHi0MJnrJNtWqBi2nuXR0J0ulMI244uQoiFgug9zIqyQm9Wdfn_C67eoMYNM59RI2C7JtlyXiwKP4KN48lcJCuEJI5f6QRCcTURk4IQLY=s417</b:widget-setting>
               <b:widget-setting name="displayHeight">417</b:widget-setting>
@@ -8,7 +8,7 @@
               <b:widget-setting name="link" />
               <b:widget-setting name="caption">GOVT Sponsorship</b:widget-setting>
             </b:widget-settings>
-            <!--INCLUDABLE includables/defs/main-63.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d36332e786d6c222c226964656e746966696572223a226d61696e227d-->
-            <!--INCLUDABLE includables/defs/content-50.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d35302e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/main-78.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d37382e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-62.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d36322e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
           </b:widget>
           

@@ -1,8 +1,10 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-      <div class="widget-content">
-        <b:class expr:name="data:this.display + &quot;-label&quot;" />
-        <b:include cond="data:this.display == &quot;list&quot;" name="list" />
-        <b:include cond="data:this.display == &quot;cloud&quot;" name="list" />
-      </div>
-    </b:includable>
-            
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+ <div class="widget-content">
+   <ul>
+     <b:loop values="data:links" var="link">
+       <li><a expr:href="data:link.target"><data:link.name /></a></li>
+     </b:loop>
+   </ul>
+ </div>
+</b:includable>
+          

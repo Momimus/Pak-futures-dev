@@ -1,7 +1,0 @@
-          /* Submenu styles for service tiles */
-          #serv-tile .serv-submenu{display:none;padding:8px 0 0;margin:6px 0 0;border-top:1px solid rgba(0,0,0,.06)}
-          #serv-tile .serv-submenu.open{display:block}
-          #serv-tile .serv-submenu .serv-subitem{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;background:rgba(0,0,0,.04);margin:6px 0;text-decoration:none;color:inherit}
-          #serv-tile .serv-submenu .serv-subitem:hover{background:rgba(0,0,0,.08)}
-          #serv-tile .serv-submenu .serv-subitem i{font-size:16px;opacity:.8}
-        

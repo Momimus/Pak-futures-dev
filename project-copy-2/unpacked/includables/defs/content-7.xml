@@ -1,8 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-              <ul id="main-menu-nav" role="menubar">
-                <b:loop values="data:links" var="link">
-                  <li><a expr:href="data:link.target" role="menuitem"><data:link.name /></a></li>
-                </b:loop>
-              </ul>
-            </b:includable>
-          

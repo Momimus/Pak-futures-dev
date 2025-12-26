@@ -1,7 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="sharingButton">
-  <span expr:aria-label="data:platform.shareMessage" expr:class="&quot;sharing-platform-button sharing-element-&quot; + data:platform.key" expr:data-href="data:shareUrl + &quot;&amp;target=&quot; + data:platform.target" expr:data-url="data:originalUrl" expr:title="data:platform.shareMessage" role="menuitem" tabindex="-1">
-    <b:include name="sharingPlatformIcon" />
-    <span class="platform-sharing-text"><data:platform.name /></span>
-  </span>
-</b:includable>
-            

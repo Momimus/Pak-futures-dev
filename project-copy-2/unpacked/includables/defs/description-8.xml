@@ -1,5 +1,0 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="description">
-          <!-- Don't show description on the item page -->
-          <b:include cond="not data:view.isSingleItem" name="super.description" />
-        </b:includable>
-     

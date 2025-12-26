@@ -1,8 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="postJumpLink" var="post">
-  <div class="jump-link flat-button">
-    <a expr:href="data:post.url fragment &quot;more&quot;" expr:title="data:post.title">
-      <b:eval expr="data:blog.jumpLinkMessage" />
-    </a>
-  </div>
-</b:includable>
-            

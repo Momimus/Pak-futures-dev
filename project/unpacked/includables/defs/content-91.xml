@@ -1,12 +1,8 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="content">
-              <b:if cond="data:team">
-                <div class="widget_content team">
-                  <b:include name="teamProfile" />
-                </div>
-                <b:else />
-                <div class="widget_content individual">
-                  <b:include name="userProfile" />
-                </div>
-              </b:if>
-            </b:includable>
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+      <div class="widget-content">
+        <b:class expr:name="data:this.display + &quot;-label&quot;" />
+        <b:include cond="data:this.display == &quot;list&quot;" name="list" />
+        <b:include cond="data:this.display == &quot;cloud&quot;" name="list" />
+      </div>
+    </b:includable>
             

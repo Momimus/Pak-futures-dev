@@ -1,19 +1,19 @@
 <b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="content">
               <div class="widget-content">
-              &lt;style type='text/css'&gt;
+                &lt;style type='text/css'&gt;
                 #intro-author-wrap{display:block}
-                .author-intro-widgets .right-side-widget .widget:nth-child(6) .service-content{
+                .author-intro-widgets .right-side-widget .widget:nth-child(1) .service-content{
     background-image: url(<data:sourceUrl />);
 }
                 &lt;/style&gt;
                 <div class="service-content">
-                  <div class="service-content-box-color" />
-                 <div class="service-content-details">
+                   <div class="service-content-box-color" />
+                  <div class="service-content-details">
                   <h3 class="service-title"><data:title /></h3>
                   <b:if cond="data:caption">
                     <p class="service-snippet"><data:caption /></p>
                   </b:if>
-                    <b:if cond="data:link">
+                     <b:if cond="data:link">
                   <div class="service-action">
                     &lt;script type="text/javascript"&gt;
                     var slc = "<data:link />",
@@ -26,7 +26,7 @@
                   </div>
                 </b:if>
                   </div>
-
+                
                 </div>
               </div>
             </b:includable>

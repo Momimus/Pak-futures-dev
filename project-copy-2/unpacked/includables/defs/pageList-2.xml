@@ -1,9 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="pageList">
-  <ul>
-    <b:class cond="data:pageListClass" expr:name="data:pageListClass" />
-    <b:loop values="data:links" var="link">
-      <b:include name="pageLink" />
-    </b:loop>
-  </ul>
-</b:includable>
-          

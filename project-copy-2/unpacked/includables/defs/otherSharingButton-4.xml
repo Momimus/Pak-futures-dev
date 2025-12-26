@@ -1,9 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="otherSharingButton">
-  <span class="sharing-platform-button sharing-element-other" expr:aria-label="data:messages.shareToOtherApps.escaped" expr:data-url="data:originalUrl" expr:title="data:messages.shareToOtherApps.escaped" role="menuitem" tabindex="-1">
-    <b:with value="{key: &quot;sharingOther&quot;}" var="platform">
-      <b:include name="sharingPlatformIcon" />
-    </b:with>
-    <span class="platform-sharing-text"><data:messages.shareOtherApps.escaped /></span>
-  </span>
-</b:includable>
-            

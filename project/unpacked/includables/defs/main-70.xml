@@ -1,9 +1,5 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="main" var="this">
-      <b:include name="widget-title" />
-      <div class="widget-content">
-        <b:loop values="data:posts" var="post">
-          <b:include data="post" name="postContent" />
-        </b:loop>
-      </div>
-    </b:includable>
-            
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="main">
+              <b:include name="widget-title" />
+              <p class="widget-content"><data:content /></p>
+            </b:includable>
+           

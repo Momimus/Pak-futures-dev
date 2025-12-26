@@ -1,6 +1,6 @@
 <b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML36" locked="false" title="Menu Bar Bawah" type="HTML" version="2" visible="false">
-     <b:widget-settings>
-       <b:widget-setting name="content">&lt;div class="bottom_bar_menu_widget"&gt;
+        <b:widget-settings>
+          <b:widget-setting name="content">&lt;div class="bottom_bar_menu_widget"&gt;
   &lt;ul&gt;
     &lt;li&gt;
       &lt;a class="home_button" href="javascript:;"&gt;
@@ -38,7 +38,7 @@
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;</b:widget-setting>
-     </b:widget-settings>
-     <!--INCLUDABLE includables/defs/main-184.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3138342e786d6c222c226964656e746966696572223a226d61696e227d-->
-   </b:widget>
-   
+        </b:widget-settings>
+        <!--INCLUDABLE includables/defs/main-211.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3231312e786d6c222c226964656e746966696572223a226d61696e227d-->
+      </b:widget>
+      

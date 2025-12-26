@@ -1,4 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="authorProfileImage">
-              <img class="profile_img lazyload" expr:alt="data:messages.myPhoto" expr:data-src="resizeImage(data:authorPhoto.image,100,&quot;1:1&quot;)" expr:height="data:authorPhoto.height" expr:width="data:authorPhoto.width" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
-            </b:includable>
-            

@@ -1,5 +1,12 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="main">
-  <b:include name="widget-title" />
-  <b:include name="content" />
-</b:includable>
-            
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="main">
+                <div class="widget_content middle_ad">
+                  <div id="parallax_ad_content">
+                    <div>
+                      <div>
+                        <data:content />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </b:includable>
+          

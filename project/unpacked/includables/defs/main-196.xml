@@ -1,5 +1,4 @@
 <b:includable xmlns:b="http://www.google.com/2005/gml/b" id="main">
-          <b:include name="widget-title" />
-          <b:include name="content" />
-        </b:includable>
-        
+              <b:include name="content" />
+            </b:includable>
+          

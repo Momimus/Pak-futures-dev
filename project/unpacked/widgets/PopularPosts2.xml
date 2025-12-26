@@ -1,11 +1,11 @@
 <b:widget xmlns:b="http://www.google.com/2005/gml/b" id="PopularPosts2" locked="false" title="Education" type="PopularPosts" version="2" visible="true">
             <b:widget-settings>
-              <b:widget-setting name="numItemsToShow">4</b:widget-setting>
+              <b:widget-setting name="numItemsToShow">6</b:widget-setting>
               <b:widget-setting name="showThumbnails">true</b:widget-setting>
               <b:widget-setting name="showSnippets">false</b:widget-setting>
               <b:widget-setting name="timeRange">LAST_WEEK</b:widget-setting>
             </b:widget-settings>
-            <!--INCLUDABLE includables/defs/main-162.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3136322e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/main-175.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3137352e786d6c222c226964656e746966696572223a226d61696e227d-->
             <!--INCLUDABLE includables/defs/blogThisShare-5.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f626c6f675468697353686172652d352e786d6c222c226964656e746966696572223a22626c6f67546869735368617265227d-->
             <!--INCLUDABLE includables/defs/bylineByName-5.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f62796c696e6542794e616d652d352e786d6c222c226964656e746966696572223a2262796c696e6542794e616d65227d-->
             <!--INCLUDABLE includables/defs/bylineRegion-5.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f62796c696e65526567696f6e2d352e786d6c222c226964656e746966696572223a2262796c696e65526567696f6e227d-->

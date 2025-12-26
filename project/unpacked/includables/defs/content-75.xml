@@ -1,27 +1,10 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-<b:if cond="data:title contains &quot;(sibForm)&quot;">
-        <b:class name="sibForm" />
-      </b:if>
-      <div class="widget-content" expr:data-shortcode="data:title">
-            <div class="follow-by-email">
-            <b:if cond="data:title contains &quot;title&quot; and data:title contains &quot;caption&quot;">
-          <h3 class="follow-by-email-title">
-          </h3>
-        <span class="follow-by-email-caption" />
-          <b:else />
-          <h3 class="follow-by-email-title">
-          Follow by Email
-          </h3>
-          <span class="follow-by-email-caption">Get Notified About Next Update Direct to Your inbox</span>
-           </b:if>
-        <div class="follow-by-email-inner">
-        <form expr:action="data:content" expr:onsubmit="&quot;window.open(\&quot;&quot; + data:content + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;" method="post" name="sib-subscribe-form" novalidate="" target="popupwindow">
-            <input class="follow-by-email-address" name="EMAIL" placeholder="Email Address" type="email" value="" />
-            <input class="follow-by-email-submit" name="subscribe" type="submit" value="Subscribe" />
-          </form>
-        </div>
-      </div>
-   <div class="Follow-by-alert">* We promise that we don't spam !</div>
-            </div>
-    </b:includable>
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+ <div class="widget-content">
+   <ul>
+     <b:loop values="data:links" var="link">
+       <li><a expr:href="data:link.target"><data:link.name /></a></li>
+     </b:loop>
+   </ul>
+ </div>
+</b:includable>
           

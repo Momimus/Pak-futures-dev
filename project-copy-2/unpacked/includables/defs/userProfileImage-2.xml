@@ -1,6 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="userProfileImage">
-  <a expr:href="data:userUrl" rel="nofollow">
-    <b:include name="profileImage" />
-  </a>
-</b:includable>
-            

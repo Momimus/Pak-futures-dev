@@ -1,5 +1,34 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="main" var="this">
-      <b:include name="widget-title" />
-      <b:include name="content" />
-    </b:includable>
-            
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="main">
+              <div class="widget_content">
+                <div class="subscribe_box">
+                  <div class="title widget_title">
+                    <b:include name="iconMail" />
+                    <b:switch var="data:blog.locale">
+                      <b:case value="id" />Kirim ke email Anda atau teman
+                      <b:default />Send to your email or friends
+                    </b:switch>
+                  </div>
+                  <span>
+                    <b:switch var="data:blog.locale">
+                      <b:case value="id" />Kami akan memberi tahu Anda ketika ada info lowongan kerja terbaru, jadi tetaplah bersama kami!
+                      <b:default />We'll notify you when there's new job vacancies, so stay tuned!
+                    </b:switch>
+                  </span>
+                  <form expr:action="data:content" method="post" target="_blank">
+                    <b:switch var="data:blog.locale">
+                      <b:case value="id" />
+                      <input name="email" placeholder="Ketik email Anda" required="required" type="email" />
+                      <b:default />
+                      <input name="email" placeholder="Type your e-mail" required="required" type="email" />
+                    </b:switch>
+                    <button aria-label="Subscribe Button" class="subscribe_button jobzeek_button medium outline" type="submit">
+                      <b:switch var="data:blog.locale">
+                        <b:case value="id" />Kirim info lowongan
+                        <b:default />Submit job vacancies
+                      </b:switch>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </b:includable>
+          

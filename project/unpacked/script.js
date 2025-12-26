@@ -1147,3 +1147,402 @@ $(".post-body a").each(function() {
 //
 // [END SCRIPT]
 
+// [SCRIPT:script-8]
+
+//
+// Job Carousel Initialization
+(function() {
+  function initJobCarousels() {
+    if (typeof Swiper === 'undefined' || typeof $ === 'undefined') {
+      return;
+    }
+    
+    var carousels = document.querySelectorAll('.job-carousel-swiper');
+    if (!carousels.length) return;
+    
+    carousels.forEach(function(swiperEl) {
+      var labelFilter = swiperEl.getAttribute('data-label-filter');
+      if (!labelFilter) return;
+      
+      var wrapper = swiperEl.querySelector('.job-carousel-wrapper');
+      if (!wrapper) return;
+      
+      // Encode label for URL - Blogger format (spaces to +)
+      var labelUrl = labelFilter.replace(/\s+/g, '+');
+      var feedUrl = '/feeds/posts/default/-/' + labelUrl + '?alt=json-in-script&max-results=10';
+      
+      // Debug logging
+      console.log('Carousel Label:', labelFilter);
+      console.log('Feed URL:', feedUrl);
+      
+      // Fetch posts
+      $.ajax({
+        url: feedUrl,
+        type: 'get',
+        dataType: 'jsonp',
+        success: function(json) {
+          console.log('Feed response:', json);
+          
+          if (!json || !json.feed || !json.feed.entry) {
+            console.log('No feed entry found');
+            wrapper.innerHTML = '<div class="job-carousel-empty" style="text-align:center;padding:40px;color:#999;">No jobs available</div>';
+            return;
+          }
+          
+          var posts = json.feed.entry;
+          console.log('Posts found:', posts ? posts.length : 0);
+          
+          if (!posts || !posts.length) {
+            console.log('No posts in feed');
+            wrapper.innerHTML = '<div class="job-carousel-empty" style="text-align:center;padding:40px;color:#999;">No jobs available</div>';
+            return;
+          }
+          
+          wrapper.innerHTML = '';
+          
+          posts.forEach(function(post) {
+            var entry = post;
+            var title = entry.title ? (entry.title.$t || entry.title) : 'Untitled';
+            var url = '';
+            var image = 'https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4--I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w680/nth.png';
+            var author = '';
+            var description = '';
+            
+            // Get post URL
+            entry.link.forEach(function(link) {
+              if (link.rel === 'alternate') {
+                url = link.href;
+              }
+            });
+            
+            // Get featured image - better quality
+            if (entry.media$thumbnail) {
+              image = entry.media$thumbnail.url.replace(/\/s\d+-c/, '/s400-c');
+            } else if (entry['media$thumbnail']) {
+              image = entry['media$thumbnail'].url.replace(/\/s\d+-c/, '/s400-c');
+            }
+            
+            // Get description - only 4-5 words (always show something)
+            if (entry.content && entry.content.$t) {
+              var text = entry.content.$t.replace(/<[^>]*>/g, '').trim();
+              if (text && text.length > 0) {
+                var words = text.split(/\s+/).slice(0, 5);
+                description = words.join(' ');
+              }
+            }
+            if (!description && entry.summary && entry.summary.$t) {
+              var text = entry.summary.$t.replace(/<[^>]*>/g, '').trim();
+              if (text && text.length > 0) {
+                var words = text.split(/\s+/).slice(0, 5);
+                description = words.join(' ');
+              }
+            }
+            // Always show description (fallback if empty)
+            if (!description || description.trim() === '') {
+              description = 'Job opportunity available';
+            }
+            
+            // Get author
+            if (entry.author && entry.author[0] && entry.author[0].name) {
+              author = entry.author[0].name.$t || entry.author[0].name;
+            }
+            
+            // Create slide
+            var slide = document.createElement('div');
+            slide.className = 'swiper-slide job-card';
+            
+            var cardLink = document.createElement('a');
+            cardLink.className = 'job-card-link';
+            cardLink.href = url;
+            
+            var cardImage = document.createElement('div');
+            cardImage.className = 'job-card-image';
+            var img = document.createElement('img');
+            img.className = 'job-card-logo';
+            img.src = image;
+            img.alt = title;
+            cardImage.appendChild(img);
+            
+            var cardContent = document.createElement('div');
+            cardContent.className = 'job-card-content';
+            
+            // Order: Title → Description → Company (optional)
+            var cardTitle = document.createElement('h3');
+            cardTitle.className = 'job-card-title';
+            cardTitle.textContent = title;
+            cardContent.appendChild(cardTitle);
+            
+            // Always add description (4-5 words) right after title
+            var cardDescription = document.createElement('p');
+            cardDescription.className = 'job-card-description';
+            cardDescription.textContent = description;
+            // Inline styles for visibility
+            cardDescription.style.cssText = 'font-size: 13px !important; color: #555 !important; line-height: 1.5 !important; margin: 10px 0 8px !important; display: block !important; visibility: visible !important; opacity: 1 !important; font-weight: 400 !important;';
+            cardContent.appendChild(cardDescription);
+            
+            // Company optional (only if author exists)
+            if (author) {
+              var cardCompany = document.createElement('div');
+              cardCompany.className = 'job-card-company';
+              var companyName = document.createElement('span');
+              companyName.className = 'job-card-company-name';
+              companyName.textContent = author;
+              cardCompany.appendChild(companyName);
+              cardContent.appendChild(cardCompany);
+            }
+            
+            cardLink.appendChild(cardImage);
+            cardLink.appendChild(cardContent);
+            slide.appendChild(cardLink);
+            wrapper.appendChild(slide);
+          });
+          
+          // Initialize Swiper after posts are added
+          if (wrapper.children.length > 0) {
+            // Destroy existing Swiper instance if any
+            if (swiperEl.swiper) {
+              swiperEl.swiper.destroy(true, true);
+            }
+            
+            // Initialize new Swiper
+            var swiperInstance = new Swiper(swiperEl, {
+              slidesPerView: 'auto',
+              spaceBetween: 15,
+              navigation: {
+                nextEl: swiperEl.querySelector('.job-carousel-next'),
+                prevEl: swiperEl.querySelector('.job-carousel-prev'),
+              },
+              breakpoints: {
+                320: {
+                  slidesPerView: 1.5,
+                  spaceBetween: 10,
+                },
+                480: {
+                  slidesPerView: 2,
+                  spaceBetween: 12,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 15,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 15,
+                },
+              },
+            });
+            
+            console.log('Swiper initialized with', wrapper.children.length, 'slides');
+          } else {
+            console.log('No slides to show');
+            wrapper.innerHTML = '<div class="job-carousel-empty" style="text-align:center;padding:40px;color:#999;">No jobs available</div>';
+          }
+        },
+        error: function(xhr, status, error) {
+          console.log('Feed error:', status, error);
+          wrapper.innerHTML = '<div class="job-carousel-empty" style="text-align:center;padding:40px;color:#999;">Unable to load jobs</div>';
+        }
+      });
+    });
+  }
+  
+  // Apply comprehensive section styles directly via JavaScript (inline styles)
+  function applySectionStyles() {
+    // Inject style tag for ::after pseudo-element (arrow icons)
+    if (!document.getElementById('job-carousel-arrow-styles')) {
+      var style = document.createElement('style');
+      style.id = 'job-carousel-arrow-styles';
+      style.textContent = '.job-carousel-prev::after, .job-carousel-next::after { font-size: 12px !important; }';
+      document.head.appendChild(style);
+    }
+    
+    // Apply section spacing
+    var premiumSection = document.getElementById('premium-jobs-section');
+    if (premiumSection) {
+      premiumSection.style.cssText += 'margin-top: 50px !important; margin-bottom: 50px !important; padding-top: 30px !important; padding-bottom: 30px !important;';
+    }
+    var seniorSection = document.getElementById('senior-jobs-section');
+    if (seniorSection) {
+      seniorSection.style.cssText += 'margin-top: 50px !important; margin-bottom: 50px !important; padding-top: 30px !important; padding-bottom: 30px !important;';
+    }
+    
+    // Premium section - Complete inline styles
+    var premiumContainers = document.querySelectorAll('.job-carousel-container.premium-jobs');
+    premiumContainers.forEach(function(container) {
+      // Container styles
+      container.style.cssText += 'background: linear-gradient(135deg, #f0fdfa 0%, #ffffff 50%, #f8fffe 100%) !important; border-left: 5px solid #14b8a6 !important; border-top: 1px solid #e6fffa !important; border-right: 1px solid #ebebf3 !important; border-bottom: 1px solid #ebebf3 !important; border-radius: 12px !important; box-shadow: 0 6px 25px rgba(20, 184, 166, 0.12) !important; padding: 35px 30px !important; max-width: 1200px !important; margin: 0 auto !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
+      
+      // Header styles
+      var header = container.querySelector('.job-carousel-header');
+      if (header) {
+        header.style.cssText += 'display: flex !important; justify-content: space-between !important; align-items: center !important; margin-bottom: 30px !important; padding-bottom: 15px !important; border-bottom: 1px solid #e6fffa !important;';
+      }
+      
+      // Title styles - Show title with proper styling
+      var title = container.querySelector('.job-carousel-title');
+      if (title) {
+        title.style.cssText += 'font-size: 26px !important; font-weight: 700 !important; margin: 0 !important; color: #0f766e !important; letter-spacing: -0.5px !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
+      }
+      
+      // Hide section title (outside title)
+      var section = container.closest('section[id*="premium"], section[id*="senior"]');
+      if (!section) {
+        section = container.closest('[id*="premium-jobs-section"], [id*="senior-jobs-section"]');
+      }
+      if (section) {
+        var sectionTitle = section.querySelector('.widget-title, h2.widget-title, h3.widget-title');
+        if (sectionTitle) {
+          sectionTitle.style.cssText += 'display: none !important; visibility: hidden !important; opacity: 0 !important; height: 0 !important; margin: 0 !important; padding: 0 !important;';
+        }
+      }
+      
+      // View All button styles
+      var viewAll = container.querySelector('.job-carousel-view-all');
+      if (viewAll) {
+        viewAll.style.cssText += 'font-size: 14px !important; font-weight: 600 !important; text-decoration: none !important; padding: 8px 16px !important; border-radius: 6px !important; color: #14b8a6 !important; border: 2px solid #14b8a6 !important; background: rgba(20, 184, 166, 0.05) !important; transition: all 0.3s ease !important;';
+      }
+      
+      // Card styles
+      var cards = container.querySelectorAll('.job-card');
+      cards.forEach(function(card) {
+        card.style.cssText += 'width: 220px !important; flex-shrink: 0 !important; background: #fff !important; border: 1px solid #d1fae5 !important; border-radius: 10px !important; overflow: hidden !important; box-shadow: 0 3px 10px rgba(20, 184, 166, 0.08) !important; transition: all 0.3s ease !important;';
+      });
+      
+      // Arrow styles - Premium (balanced size)
+      var prevArrow = container.querySelector('.job-carousel-prev');
+      var nextArrow = container.querySelector('.job-carousel-next');
+      if (prevArrow) {
+        prevArrow.style.cssText += 'width: 36px !important; height: 36px !important; background: #ffffff !important; border: 2px solid #14b8a6 !important; border-radius: 50% !important; color: #14b8a6 !important; position: absolute !important; left: 5px !important; top: 50% !important; transform: translateY(-50%) !important; z-index: 15 !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; box-shadow: 0 3px 10px rgba(20, 184, 166, 0.25) !important; visibility: visible !important; opacity: 1 !important; font-size: 12px !important;';
+        prevArrow.setAttribute('data-arrow-size', '12px');
+      }
+      if (nextArrow) {
+        nextArrow.style.cssText += 'width: 36px !important; height: 36px !important; background: #ffffff !important; border: 2px solid #14b8a6 !important; border-radius: 50% !important; color: #14b8a6 !important; position: absolute !important; right: 5px !important; top: 50% !important; transform: translateY(-50%) !important; z-index: 15 !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; box-shadow: 0 3px 10px rgba(20, 184, 166, 0.25) !important; visibility: visible !important; opacity: 1 !important; font-size: 12px !important;';
+        nextArrow.setAttribute('data-arrow-size', '12px');
+      }
+    });
+    
+    // Senior section - Complete inline styles
+    var seniorContainers = document.querySelectorAll('.job-carousel-container.senior-jobs');
+    seniorContainers.forEach(function(container) {
+      // Container styles
+      container.style.cssText += 'background: linear-gradient(135deg, #faf5ff 0%, #ffffff 50%, #fef3ff 100%) !important; border-left: 5px solid #8b5cf6 !important; border-top: 1px solid #f3e8ff !important; border-right: 1px solid #ebebf3 !important; border-bottom: 1px solid #ebebf3 !important; border-radius: 12px !important; box-shadow: 0 6px 25px rgba(139, 92, 246, 0.12) !important; padding: 35px 30px !important; max-width: 1200px !important; margin: 0 auto !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
+      
+      // Header styles
+      var header = container.querySelector('.job-carousel-header');
+      if (header) {
+        header.style.cssText += 'display: flex !important; justify-content: space-between !important; align-items: center !important; margin-bottom: 30px !important; padding-bottom: 15px !important; border-bottom: 1px solid #f3e8ff !important;';
+      }
+      
+      // Title styles - Show title with proper styling
+      var title = container.querySelector('.job-carousel-title');
+      if (title) {
+        title.style.cssText += 'font-size: 26px !important; font-weight: 700 !important; margin: 0 !important; color: #6d28d9 !important; letter-spacing: -0.5px !important; display: block !important; visibility: visible !important; opacity: 1 !important;';
+      }
+      
+      // Hide section title (outside title)
+      var section = container.closest('section[id*="premium"], section[id*="senior"]');
+      if (!section) {
+        section = container.closest('[id*="premium-jobs-section"], [id*="senior-jobs-section"]');
+      }
+      if (section) {
+        var sectionTitle = section.querySelector('.widget-title, h2.widget-title, h3.widget-title');
+        if (sectionTitle) {
+          sectionTitle.style.cssText += 'display: none !important; visibility: hidden !important; opacity: 0 !important; height: 0 !important; margin: 0 !important; padding: 0 !important;';
+        }
+      }
+      
+      // View All button styles
+      var viewAll = container.querySelector('.job-carousel-view-all');
+      if (viewAll) {
+        viewAll.style.cssText += 'font-size: 14px !important; font-weight: 600 !important; text-decoration: none !important; padding: 8px 16px !important; border-radius: 6px !important; color: #8b5cf6 !important; border: 2px solid #8b5cf6 !important; background: rgba(139, 92, 246, 0.05) !important; transition: all 0.3s ease !important;';
+      }
+      
+      // Card styles
+      var cards = container.querySelectorAll('.job-card');
+      cards.forEach(function(card) {
+        card.style.cssText += 'width: 220px !important; flex-shrink: 0 !important; background: #fff !important; border: 1px solid #e9d5ff !important; border-radius: 10px !important; overflow: hidden !important; box-shadow: 0 3px 10px rgba(139, 92, 246, 0.08) !important; transition: all 0.3s ease !important;';
+      });
+      
+      // Arrow styles - Senior (balanced size)
+      var prevArrow = container.querySelector('.job-carousel-prev');
+      var nextArrow = container.querySelector('.job-carousel-next');
+      if (prevArrow) {
+        prevArrow.style.cssText += 'width: 36px !important; height: 36px !important; background: #ffffff !important; border: 2px solid #8b5cf6 !important; border-radius: 50% !important; color: #8b5cf6 !important; position: absolute !important; left: 5px !important; top: 50% !important; transform: translateY(-50%) !important; z-index: 15 !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; box-shadow: 0 3px 10px rgba(139, 92, 246, 0.25) !important; visibility: visible !important; opacity: 1 !important; font-size: 12px !important;';
+        prevArrow.setAttribute('data-arrow-size', '12px');
+      }
+      if (nextArrow) {
+        nextArrow.style.cssText += 'width: 36px !important; height: 36px !important; background: #ffffff !important; border: 2px solid #8b5cf6 !important; border-radius: 50% !important; color: #8b5cf6 !important; position: absolute !important; right: 5px !important; top: 50% !important; transform: translateY(-50%) !important; z-index: 15 !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; box-shadow: 0 3px 10px rgba(139, 92, 246, 0.25) !important; visibility: visible !important; opacity: 1 !important; font-size: 12px !important;';
+        nextArrow.setAttribute('data-arrow-size', '12px');
+      }
+    });
+    
+    // Apply card content styles
+    var allCards = document.querySelectorAll('.job-card');
+    allCards.forEach(function(card) {
+      var cardImage = card.querySelector('.job-card-image');
+      if (cardImage) {
+        cardImage.style.cssText += 'width: 100% !important; height: 160px !important; display: flex !important; align-items: center !important; justify-content: center !important; background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%) !important; padding: 20px !important; border-bottom: 1px solid #f0f0f0 !important;';
+      }
+      
+      var cardContent = card.querySelector('.job-card-content');
+      if (cardContent) {
+        cardContent.style.cssText += 'padding: 18px !important;';
+      }
+      
+      var cardTitle = card.querySelector('.job-card-title');
+      if (cardTitle) {
+        cardTitle.style.cssText += 'font-size: 16px !important; font-weight: 600 !important; margin: 0 0 10px !important; color: #333 !important; line-height: 1.4 !important;';
+      }
+      
+      var cardDesc = card.querySelector('.job-card-description');
+      if (cardDesc) {
+        cardDesc.style.cssText += 'font-size: 13px !important; color: #555 !important; line-height: 1.5 !important; margin: 10px 0 8px !important; display: block !important; visibility: visible !important; opacity: 1 !important; font-weight: 400 !important;';
+      }
+    });
+  }
+  
+  // Multiple initialization attempts for better reliability
+  function tryInit() {
+    if (typeof Swiper === 'undefined' || typeof $ === 'undefined') {
+      console.log('Waiting for Swiper/jQuery...');
+      setTimeout(tryInit, 100);
+      return;
+    }
+    // Apply section styles first
+    applySectionStyles();
+    // Then initialize carousels
+    initJobCarousels();
+    // Re-apply styles multiple times to ensure they stick
+    setTimeout(applySectionStyles, 500);
+    setTimeout(applySectionStyles, 1000);
+    setTimeout(applySectionStyles, 2000);
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(tryInit, 500);
+    });
+  } else {
+    setTimeout(tryInit, 500);
+  }
+  
+  // Also apply styles on window load and after content loads
+  window.addEventListener('load', function() {
+    setTimeout(applySectionStyles, 500);
+    setTimeout(applySectionStyles, 1500);
+  });
+  
+  // Apply styles when DOM changes (MutationObserver)
+  if (window.MutationObserver) {
+    var observer = new MutationObserver(function(mutations) {
+      applySectionStyles();
+    });
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  }
+})();
+//
+// [END SCRIPT]
+

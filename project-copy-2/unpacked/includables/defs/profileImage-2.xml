@@ -1,8 +1,0 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="profileImage">
-  <b:if cond="data:authorPhoto.image">
-    <b:include name="authorProfileImage" />
-  <b:else />
-    <b:include name="defaultProfileImage" />
-  </b:if>
-</b:includable>
-            

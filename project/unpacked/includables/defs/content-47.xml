@@ -1,22 +1,14 @@
 <b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
-              <div class="widget-content">
-                &lt;style type='text/css'&gt;
-                #intro-author-wrap{display:block}
-                &lt;/style&gt;
-                <div class="service-content">
-                  <b:if cond="data:link == &quot;image&quot;">
-                    <b:class name="service-icon-image" />
-                    <span class="service-icon"><img expr:alt="data:title" expr:src="data:sourceUrl" /></span>
-                    <b:else />
-                    <span class="service-icon"><i expr:class="data:link" /></span>
-                  </b:if>
-                  <div class="service-content-details">
-                  <h3 class="service-title"><data:title /></h3>
-                  <b:if cond="data:caption">
-                    <p class="service-snippet"><data:caption /></p>
-                  </b:if>
-                  </div>
-                </div>
-              </div>
-            </b:includable>
-         
+  <div class="widget-content">
+    <b:tag cond="data:link" expr:href="data:link" name="a">
+      <img expr:alt="data:title" expr:height="data:height" expr:id="data:widget.instanceId + &quot;_img&quot;" expr:src="data:sourceUrl" expr:width="data:width">
+        <b:attr cond="data:sourceSet" expr:value="data:sourceSet" name="srcset" />
+      </img>
+    </b:tag>
+    <br />
+    <b:if cond="data:caption">
+      <span class="caption"><data:caption /></span>
+    </b:if>
+  </div>
+</b:includable>
+              

@@ -1,6 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="postCommentsLink">
-  <span class="byline post-comment-link container">
-    <b:include cond="data:post.commentSource != 1" name="commentsLink" />
-  </span>
-</b:includable>
-            

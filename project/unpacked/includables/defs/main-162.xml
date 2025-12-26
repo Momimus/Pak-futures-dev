@@ -1,19 +1,8 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="main" var="this">
-      <b:include name="widget-title" />
-      <div class="widget-content">
-        <b:if cond="data:widget.sectionId == &quot;hot-section&quot;">
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="main">
+                <div class="widget_content middle_ad">
+                  <div id="middle_ad1_content">
+                    <data:content />
+                  </div>
+                </div>
+              </b:includable>
           
-           <ul class="hot-posts">  
-               <b:loop index="i" values="data:posts" var="post">
-                <b:include data="post" name="postContent" />
-              </b:loop>
-    
-          </ul>
-           <b:else />
-        <b:loop values="data:posts" var="post">
-          <b:include data="post" name="postContent" />
-        </b:loop>
-        </b:if>
-      </div>
-    </b:includable>
-            

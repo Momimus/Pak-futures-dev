@@ -1,14 +1,14 @@
-<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image30" locked="false" title="Court Jobs" type="Image" visible="true">
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image30" locked="false" title="Oil Gas Jobs" type="Image" visible="true">
             <b:widget-settings>
-              <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEhBsQmW_TS87DEbM3boiYlRUOdkW6YsdUGom0jQuSgZQ6mWm5hEcFJqQUQyXQrK00faT1akv3wvx1r6PEo43EHduvcyDdKWLySMLHQj3DZGkcU0EcFrJBYzss8QFaHb_g4K545EIdQ5tkKpqe_3FYw5VHV90gMWDY7jcZT-nx_-jkOJcL_ltjluwvv_7hSD=s151</b:widget-setting>
-              <b:widget-setting name="displayHeight">151</b:widget-setting>
+              <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgEg_BL1In9GSgocKPFif_BIL-f4IZT4hjeg1XmZkK1dL8kQDKiu7xwR6KG41DovzrZR0basmi7pZtafCxvbEvln0m_U70KH4j6pXJ4MlcX5dy_oapsIXt-b6ulQgwucCHvZejcGMQWs54vfUup2A7GRpBnZrwAq5v6q6PESl_c0M7ZsTYzJTMZ1-bw58Y-=s1600</b:widget-setting>
+              <b:widget-setting name="displayHeight">1583</b:widget-setting>
               <b:widget-setting name="sectionWidth">150</b:widget-setting>
               <b:widget-setting name="shrinkToFit">false</b:widget-setting>
-              <b:widget-setting name="displayWidth">120</b:widget-setting>
-              <b:widget-setting name="link" />
+              <b:widget-setting name="displayWidth">1600</b:widget-setting>
+              <b:widget-setting name="link">https://pakfutures.blogspot.com/p/govt-org-jobs.html</b:widget-setting>
               <b:widget-setting name="caption" />
             </b:widget-settings>
-            <!--INCLUDABLE includables/defs/main-36.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d33362e786d6c222c226964656e746966696572223a226d61696e227d-->
-            <!--INCLUDABLE includables/defs/content-29.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d32392e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/main-42.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d34322e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-34.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d33342e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
           </b:widget>
           

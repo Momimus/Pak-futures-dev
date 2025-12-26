@@ -1,10 +1,18 @@
 <b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
- <div class="widget-content">
-   <ul>
-     <b:loop values="data:links" var="link">
-       <li><a expr:href="data:link.target"><data:link.name /></a></li>
-     </b:loop>
-   </ul>
- </div>
-</b:includable>
+              <div class="widget-content">
+              
+                <b:if cond="data:caption">
+                    <div class="testi-info-quotes">
+                    <p class="testi-snippet"><data:caption /></p>
+                    </div>
+                  </b:if>
+                <div class="testi-bottom-info">
+                <div class="testi-avatar"><img expr:alt="data:title" expr:src="data:sourceUrl" /></div>
+                <div class="testi-info">
+                  <h3 class="testi-title"><data:title /></h3>
+                  <span class="testi-meta"><data:link /></span>     
+                </div>
+                </div>
+              </div>
+            </b:includable>
           

@@ -1,11 +1,11 @@
 <b:widget xmlns:b="http://www.google.com/2005/gml/b" id="PopularPosts1" locked="false" title="Popular Posts" type="PopularPosts" version="2" visible="true">
             <b:widget-settings>
-              <b:widget-setting name="numItemsToShow">3</b:widget-setting>
+              <b:widget-setting name="numItemsToShow">5</b:widget-setting>
               <b:widget-setting name="showThumbnails">true</b:widget-setting>
               <b:widget-setting name="showSnippets">true</b:widget-setting>
               <b:widget-setting name="timeRange">LAST_WEEK</b:widget-setting>
             </b:widget-settings>
-            <!--INCLUDABLE includables/defs/main-70.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d37302e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/main-85.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d38352e786d6c222c226964656e746966696572223a226d61696e227d-->
             <!--INCLUDABLE includables/defs/blogThisShare-4.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f626c6f675468697353686172652d342e786d6c222c226964656e746966696572223a22626c6f67546869735368617265227d-->
             <!--INCLUDABLE includables/defs/bylineByName-4.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f62796c696e6542794e616d652d342e786d6c222c226964656e746966696572223a2262796c696e6542794e616d65227d-->
             <!--INCLUDABLE includables/defs/bylineRegion-4.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f62796c696e65526567696f6e2d342e786d6c222c226964656e746966696572223a2262796c696e65526567696f6e227d-->

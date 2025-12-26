@@ -1,14 +1,14 @@
 <b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image19" locked="false" title="" type="Image" visible="false">
       <b:widget-settings>
-        <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgZeT-TZmRFSot6kJkH0XMnQF1x8w9BlEtFveO4zHPPu1MfnQg-VXZQaFp6Kz8adbmcqYxGJxwry__qeVpKhu23pqLeMhLX74t5iur2aqLv7fGXICOrYCXZJ__mpMx-oGZYKia6OCYUXVtEmLRSvl26cnlp1N6AXYhQBNFB2evZzQmzm-m0c1_5VbMRl2eB=s128</b:widget-setting>
-        <b:widget-setting name="displayHeight">128</b:widget-setting>
+        <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEh4GbME4gommgNO3HuAvB-w9WLBrtauoAt0ULHfGc5RB24FTV6gekKM6FI2bqv0p1XEH2K1_dR0LAxTMYEceegdUPXmIISvhCBdGix3qW8odpeaKlv4QDap02UB1HVzpMVRJefykvREPZPN-DUVYIi3LiipRKi8JzQtXI0xOC0zsPzZ4xS38vk2EqVTlonH=s500</b:widget-setting>
+        <b:widget-setting name="displayHeight">500</b:widget-setting>
         <b:widget-setting name="sectionWidth">150</b:widget-setting>
         <b:widget-setting name="shrinkToFit">false</b:widget-setting>
-        <b:widget-setting name="displayWidth">128</b:widget-setting>
+        <b:widget-setting name="displayWidth">500</b:widget-setting>
         <b:widget-setting name="link">https://www.pakfutures.com/p/scheme.html</b:widget-setting>
         <b:widget-setting name="caption" />
       </b:widget-settings>
-      <!--INCLUDABLE includables/defs/main-57.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d35372e786d6c222c226964656e746966696572223a226d61696e227d-->
-      <!--INCLUDABLE includables/defs/content-45.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d34352e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+      <!--INCLUDABLE includables/defs/main-73.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d37332e786d6c222c226964656e746966696572223a226d61696e227d-->
+      <!--INCLUDABLE includables/defs/content-58.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d35382e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
     </b:widget>
-    
+  

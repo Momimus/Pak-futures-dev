@@ -1,9 +1,0 @@
-<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="postShareButtons">
-  <div class="byline post-share-buttons goog-inline-block">
-    <b:with value="data:sharingId ?: ((data:widget.instanceId ?: &quot;sharing&quot;) + &quot;-&quot; + (data:regionName ?: &quot;byline&quot;) + &quot;-&quot; + data:post.id)" var="sharingId">
-      <!-- Note: 'sharingButtons' includable is from the default Sharing widget markup. -->
-      <b:include data="{                                                sharingId: data:sharingId,                                                originalUrl: data:post.url,                                                platforms: data:this.sharing.platforms,                                                shareUrl: data:post.shareUrl,                                                shareTitle: data:post.title,                                              }" name="sharingButtons" />
-    </b:with>
-  </div>
-</b:includable>
-            

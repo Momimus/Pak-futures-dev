@@ -1,6 +1,0 @@
-<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="bylineRegion" var="regionItems">
-  <b:loop values="data:regionItems" var="byline">
-    <b:include data="byline" name="bylineByName" />
-  </b:loop>
-</b:includable>
-            
