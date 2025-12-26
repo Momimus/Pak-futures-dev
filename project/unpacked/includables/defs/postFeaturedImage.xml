@@ -1,0 +1,13 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="postFeaturedImage" var="post">
+              <!-- Post Featured Image on Index -->
+              <div class="post-image-wrap">
+                <a class="post-image-link" expr:href="data:post.url">
+                  <b:if cond="data:post.featuredImage"> 
+                    <img class="post-thumb" expr:alt="data:post.title" expr:src="resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)" />
+                    <b:else />
+                    <img class="post-thumb" expr:alt="data:post.title" src="https://4.bp.blogspot.com/-O3EpVMWcoKw/WxY6-6I4--I/AAAAAAAAB2s/KzC0FqUQtkMdw7VzT6oOR_8vbZO6EJc-ACK4BGAYYCw/w680/nth.png" />
+                  </b:if>
+                </a>
+              </div>
+            </b:includable>
+            

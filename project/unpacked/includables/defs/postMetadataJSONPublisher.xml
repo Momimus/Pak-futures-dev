@@ -1,0 +1,13 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="postMetadataJSONPublisher">
+ "publisher": {
+    "@type": "Organization",
+    "name": "Blogger",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=h60",
+      "width": 206,
+      "height": 60
+    }
+  },
+</b:includable>
+            

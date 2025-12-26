@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image31" locked="true" title="Delivery Driver" type="Image" version="2" visible="true">
+     <b:widget-settings>
+       <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgwfMUUa5VYE4yj9-xRog2MDsSJ2yo_r2Hqya8hC6UbiM3fcchv-JFZqdPns1JBkQ50DfYah0cFTkXMpu8MZAnOikbSe_dF0P75EAQL83T6WWlFAxN90nyydNvrTzfWhUegQcaJk-tmZ7pfjFM_NeABRIp3sP5RdzutZFH-YPhloKQd9dwbkh0hpf8XV965=s400</b:widget-setting>
+       <b:widget-setting name="displayHeight">300</b:widget-setting>
+       <b:widget-setting name="sectionWidth">150</b:widget-setting>
+       <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+       <b:widget-setting name="displayWidth">400</b:widget-setting>
+       <b:widget-setting name="link">/#Know More</b:widget-setting>
+       <b:widget-setting name="caption">260 Jobs available</b:widget-setting>
+     </b:widget-settings>
+     <!--INCLUDABLE includables/defs/main-48.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d34382e786d6c222c226964656e746966696572223a226d61696e227d-->
+     <!--INCLUDABLE includables/defs/content-39.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d33392e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+   </b:widget>
+   

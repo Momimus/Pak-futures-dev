@@ -1,0 +1,59 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="comments" var="post">
+              <section expr:class="&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)" expr:data-num-comments="data:post.numberOfComments" id="comments">
+                <a name="comments" />
+                <b:if cond="data:post.allowComments">
+
+                  <b:include name="commentsTitle" />
+
+                  <div expr:id="data:widget.instanceId + &quot;_comments-block-wrapper&quot;">
+                    <b:include cond="data:post.comments" data="post.comments" name="commentList" />
+                  </div>
+
+                  <b:if cond="data:post.commentPagingRequired">
+                    <div class="paging-control-container">
+                      <b:if cond="data:post.hasOlderLinks">
+                        <a expr:class="data:post.oldLinkClass" expr:href="data:post.oldestLinkUrl">
+                          <data:messages.oldest />
+                        </a>
+                        <a expr:class="data:post.oldLinkClass" expr:href="data:post.olderLinkUrl">
+                          <data:messages.older />
+                        </a>
+                      </b:if>
+
+                      <span class="comment-range-text">
+                        <data:post.commentRangeText />
+                      </span>
+
+                      <b:if cond="data:post.hasNewerLinks">
+                        <a expr:class="data:post.newLinkClass" expr:href="data:post.newerLinkUrl">
+                          <data:messages.newer />
+                        </a>
+                        <a expr:class="data:post.newLinkClass" expr:href="data:post.newestLinkUrl">
+                          <data:messages.newest />
+                        </a>
+                      </b:if>
+                    </div>
+                  </b:if>
+                  <div class="footer">
+                    <b:if cond="data:post.embedCommentForm">
+                      <b:if cond="data:post.allowNewComments">
+                        <b:include data="post" name="commentForm" />
+                        <b:else />
+                        <data:post.noNewCommentsText />
+                      </b:if>
+                      <b:else />
+                      <b:if cond="data:post.allowComments">
+                        <b:include data="post" name="addComments" />
+                      </b:if>
+                    </b:if>
+                  </div>
+                </b:if>
+                <b:if cond="data:showCmtPopup">
+                  <div id="comment-popup">
+                    <iframe allowtransparency="allowtransparency" frameborder="0" id="comment-actions" name="comment-actions" scrolling="no">
+                    </iframe>
+                  </div>
+                </b:if>
+              </section>
+            </b:includable>
+            

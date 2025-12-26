@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Label3" locked="false" title="Govt Jobs" type="Label" version="2" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="sorting">ALPHA</b:widget-setting>
+              <b:widget-setting name="display">LIST</b:widget-setting>
+              <b:widget-setting name="selectedLabelsList">ABL Jobs,Apprenticeship,Atlas Jobs,BOK Jobs,BOP Jobs,Bahrain Jobs,Bank Alfalah Jobs,Bank Islamic Jobs,Bank Loan Schemes,Bank-AlHabib Jobs,College Jobs,Company Internships,Contract Base Jobs,Driver Jobs,Dubai Jobs,Engro Corp Jobs,Fauji Foundation Internship,Fauji Foundation Jobs,GB Medical Jobs,GB Police Jobs,Gas &amp; Oil Jobs,Govt Projects Internship,HBL Jobs,HESCO Jobs,Habib Metro Bank Jobs,Honda Jobs,Housing Jobs,IESCO Jobs,ISI Jobs,Insurance,JS Bank Jobs,Jazz Jobs,KPK Medical Jobs,KPK Police Jobs,KPPSC Jobs,LESCO Jobs,MCB Jobs,MISC Govt Jobs,Medical Jobs,Meezan Bank Jobs,Mepco Jobs,Mini Mart Jobs,Motorway Police Jobs,NAB Jobs,NBP Jobs,NDMA Jobs,NEPRA Jobs,NHA Jobs,NRSP Bank Jobs,NTS Jobs,Nadra Jobs,Navy Jobs,Nestle Jobs,Notifications,OGDC Jobs,PCB Jobs,PFNO Jobs,PIA Jobs,PM Youth Schemes,PNSC Jobs,PPSC Jobs,PSB Jobs,PSEB Jobs,PTA Jobs,PTS Jobs,Pak Army Jobs,Pak Cables Jobs,Pak Traffic Police Jobs,Private Jobs,Punjab Medical Jobs,Punjab Police Jobs,Punjab Rangers Jobs,Pvt Schools Job,Qatar Jobs,Railways Jobs,Rescue Jobs,SPSC Jobs,SSGC Jobs,Saudi Arab Jobs,Security Guard Jobs,Security Guards Jobs,Sindh Bank Jobs,Sindh Police Jobs,Sindh Ranger Jobs,Soneri Bank Jobs,Steels Jobs,Telenor Jobs,UBL Jobs,UK Jobs,USA Jobs,University Jobs,Wapda Jobs,Water &amp; Sewerage Jobs,Zong Jobs,nrs</b:widget-setting>
+              <b:widget-setting name="showType">USER_SELECTED</b:widget-setting>
+              <b:widget-setting name="showFreqNumbers">true</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-72.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d37322e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/cloud.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636c6f75642e786d6c222c226964656e746966696572223a22636c6f7564227d-->
+            <!--INCLUDABLE includables/defs/content-55.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d35352e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/list-2.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6c6973742d322e786d6c222c226964656e746966696572223a226c697374227d-->
+          </b:widget>
+          

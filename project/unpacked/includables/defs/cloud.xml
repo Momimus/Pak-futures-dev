@@ -1,0 +1,14 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="cloud">
+  <b:loop values="data:labels" var="label">
+    <span class="label-size">
+      <b:class expr:name="&quot;label-size-&quot; + data:label.cssSize" />
+      <a class="label-name" expr:href="data:label.url">
+        <data:label.name />
+        <b:if cond="data:this.showFreqNumbers">
+          <span class="label-count">(<data:label.count />)</span>
+        </b:if>
+      </a>
+    </span>
+  </b:loop>
+</b:includable>
+            

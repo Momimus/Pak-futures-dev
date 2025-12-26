@@ -1,0 +1,4 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="main" var="this">
+            <b:include name="content" />
+          </b:includable>
+            

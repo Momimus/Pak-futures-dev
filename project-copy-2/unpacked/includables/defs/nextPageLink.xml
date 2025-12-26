@@ -1,0 +1,6 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="nextPageLink">
+              <a class="blog-pager-older-link" expr:href="data:olderPageUrl" expr:id="data:widget.instanceId + &quot;_blog-pager-older-link&quot;" expr:title="data:messages.olderPosts">
+                <data:messages.loadMorePosts />
+              </a>
+            </b:includable>
+            

@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image55" locked="false" title="Our Forces" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgxrOy7xJ-mNB1wTVt0B7G0HgSEFeAQpghqgAxQ4yHDwU9pVyL5kMWNbqoF0WyoHbIvo9RMhSqGidiTIEuliAavC9RGq35_JTn-owD85hjMAdCTiwxYu6aHfeZ7OqViAY_3zUWriMlAsCG4M-jcBynzFFvOyU_9YHjS2QZBhKw_px6-jVhFYRf0tlglQkia=s1285</b:widget-setting>
+                  <b:widget-setting name="displayHeight">505</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">1285</b:widget-setting>
+                  <b:widget-setting name="link">https://ispr.gov.pk/</b:widget-setting>
+                  <b:widget-setting name="caption">Be A Part Of Something Bigger Than Yourself</b:widget-setting>
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-25.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d32352e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-17.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d31372e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+              

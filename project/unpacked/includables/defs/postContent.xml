@@ -1,0 +1,8 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="postContent" var="post">
+               <b:if cond="data:widget.sectionId == &quot;hot-section&quot;">
+        <b:include data="post" name="hotBox" />
+        <b:else />
+        <b:include data="post" name="defaultContent" />
+            </b:if>
+          </b:includable>
+          

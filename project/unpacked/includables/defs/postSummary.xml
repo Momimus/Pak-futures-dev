@@ -1,0 +1,5 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="postSummary" var="post">
+              <!-- Post Summary -->
+              <p class="post-snippet"><b:eval expr="data:post.snippets.short snippet { length: 125 }" /></p>
+            </b:includable>
+            

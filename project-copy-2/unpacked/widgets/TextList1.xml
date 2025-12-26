@@ -1,0 +1,11 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="TextList1" locked="false" title="Custom SVG Icons" type="TextList" version="2" visible="false">
+     <b:widget-settings>
+       <b:widget-setting name="shownum">3</b:widget-setting>
+       <b:widget-setting name="sorting">ALPHABETICAL</b:widget-setting>
+       <b:widget-setting name="item-1">&lt;symbol id='Lampung' viewbox='0 0 24 24'&gt;  &lt;path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"&gt;&lt;/path&gt;   &lt;path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z"&gt;&lt;/path&gt; &lt;/symbol&gt;</b:widget-setting>
+       <b:widget-setting name="item-0">&lt;symbol id='iconChevronDown' viewbox='0 0 24 24'&gt;&lt;path d="m6 9 6 6 6-6"&gt;&lt;/path&gt;&lt;/symbol&gt;</b:widget-setting>
+     </b:widget-settings>
+     <!--INCLUDABLE includables/defs/main-198.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3139382e786d6c222c226964656e746966696572223a226d61696e227d-->
+     <!--INCLUDABLE includables/defs/content-136.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d3133362e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+   </b:widget>
+ 

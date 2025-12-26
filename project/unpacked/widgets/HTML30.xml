@@ -1,0 +1,28 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML30" locked="false" title="Most Downloaded" type="HTML" visible="false">
+          <b:widget-settings>
+            <b:widget-setting name="content">&lt;!doctype html&gt;
+
+
+&lt;style&gt;
+/* Define the animation */
+@keyframes moveText {
+  100% { transform: translateX(100%); }
+  350% { transform: translateX(100%); }
+}
+
+/* Apply the animation to the text */
+.move-text {
+  position: absolute;
+  white-space: nowrap; /* Prevent text from wrapping */
+  animation: moveText 25s linear infinite; /* Adjust duration as needed */
+}
+&lt;/style&gt;
+
+
+&lt;div class="move-text"&gt;أَشْهَدُ أنْ لا إلَٰهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيْكَ لَهُ وَأشْهَدُ أنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ&lt;/div&gt;
+
+&lt;/!doctype&gt;</b:widget-setting>
+          </b:widget-settings>
+          <!--INCLUDABLE includables/defs/main-17.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d31372e786d6c222c226964656e746966696572223a226d61696e227d-->
+        </b:widget>
+      

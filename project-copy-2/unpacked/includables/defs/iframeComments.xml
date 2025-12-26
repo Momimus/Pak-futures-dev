@@ -1,0 +1,10 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="iframeComments" var="post">
+              <b:if cond="data:post.allowIframeComments">
+                <script expr:src="data:post.iframeCommentSrc" type="text/javascript" />
+                <div class="cmt_iframe_holder" expr:data-href="data:post.url.canonical" expr:data-viewtype="data:post.viewType" />
+                <b:if cond="!data:post.embedCommentForm">
+                  <b:include data="post" name="commentsLink" />
+                </b:if>
+              </b:if>
+            </b:includable>
+            

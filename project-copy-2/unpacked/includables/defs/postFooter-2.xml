@@ -1,0 +1,7 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="postFooter">
+            <div class="post_footer">
+              <b:include name="postLabels" />
+              <b:include name="postDate" />
+            </div>
+          </b:includable>
+            

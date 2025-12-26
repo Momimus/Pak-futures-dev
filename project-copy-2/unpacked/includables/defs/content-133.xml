@@ -1,0 +1,18 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+              <div class="widget-content">
+               
+               <b:if cond="data:link == &quot;image&quot;">
+                    <div class="counter-avatar"><img expr:alt="data:title" expr:src="data:sourceUrl" /></div>
+                    <b:else />
+                    <div class="counter-avatar"><i expr:class="&quot;fa &quot; + data:link" /></div>
+                  </b:if>
+                <div class="counter-info">
+                  <h3 class="counter-title"><data:title /></h3>
+                 <b:if cond="data:caption">
+                    <p class="counter-meta"><data:caption /></p>
+                  </b:if>
+                
+                </div>
+              </div>
+            </b:includable>
+        

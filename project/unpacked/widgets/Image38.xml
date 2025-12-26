@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image38" locked="false" title="First Image" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEiJi6yMuoKWeolo9orcI0Z_R4aHEM7VHAsY7uHedTbMdQywg4gxLsN5aiMyUtWC_oLKfHlG6mlLpOpeqTsCSronA7ZLV1696L07C_bky9JMdDjXOmOpdoaZhM00_nAdZ62EoD9UKfSD3KMr7VzYNTsEYAIGJc20CyxhEN9tFNI297E02aXbiChsOyS4Ig8=s172</b:widget-setting>
+                  <b:widget-setting name="displayHeight">172</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">150</b:widget-setting>
+                  <b:widget-setting name="link">https://example.com/</b:widget-setting>
+                  <b:widget-setting name="caption">Image one</b:widget-setting>
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-51.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d35312e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-43.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d34332e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+            

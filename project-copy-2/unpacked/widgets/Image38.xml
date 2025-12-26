@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image38" locked="false" title="First Image" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgWhwTHKKo0QuhzCmPFp3UxYRJPmRVb8eWP_fTJPbsL3ucvfZTFSv6y4xpMr8aNRoMjtBt9WL8vb8fign4BHYFNaVXp_1Sqr93wN2k-RSWjexpm7sjCp00z2zIQ7ujdHWVvBwaFGU4Sb73kY-0cGIHEt_SRRiC_tbl02IHwR6jAcPXqXxDzDdjD7thAUisg=s225</b:widget-setting>
+                  <b:widget-setting name="displayHeight">225</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">225</b:widget-setting>
+                  <b:widget-setting name="link">Loan</b:widget-setting>
+                  <b:widget-setting name="caption">Image one</b:widget-setting>
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-65.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d36352e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-56.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d35362e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+            

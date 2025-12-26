@@ -1,0 +1,19 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="content">
+          &lt;style type='text/css'&gt;
+          <b:loop values="data:links" var="link">
+            <b:if cond="data:link.name == &quot;boxedVersion&quot;">
+              <b:if cond="data:link.target == &quot;true&quot;">
+                #outer-wrapper{max-width:1490px}
+              </b:if>
+            </b:if>
+             <b:if cond="data:link.name == &quot;postSummary&quot;">
+              <b:if cond="data:link.target == &quot;false&quot;">
+                .index-post .post-snippet, .index-post a.read-more {
+                   display: none;
+                }
+              </b:if>
+            </b:if>
+          </b:loop>
+          &lt;/style&gt;
+        </b:includable>
+      

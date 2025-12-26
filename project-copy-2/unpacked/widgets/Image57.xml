@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image57" locked="false" title="Our Law ⚖" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEjW9rMKqn5fsQAEgCM_tlsRmWaZF7NbsKHsCu6bigjTZxK3KXAEC8TZ1hUnoM_4klG7morNwPwfpI1by8cP3wvws9eQoAhIZ5-Phr90I6Im3uhuXyc8gKtBkQLM08nLbAvHBNqD1FD_JA7g8Qm2W6muOly4_iOSRDXjHDiyzgHJWyn66DgUt0nlSB3OZzhA=s1600</b:widget-setting>
+                  <b:widget-setting name="displayHeight">603</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">1600</b:widget-setting>
+                  <b:widget-setting name="link">https://molaw.gov.pk/</b:widget-setting>
+                  <b:widget-setting name="caption">A Bill to protect people against the violation of their privacy by processing of personal data.</b:widget-setting>
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-23.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d32332e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-15.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d31352e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+              

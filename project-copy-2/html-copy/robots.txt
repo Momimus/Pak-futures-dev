@@ -1,0 +1,2 @@
+Sitemap: https://www.pakfutures.com/sitemap.xml
+Sitemap: https://www.pakfutures.com/sitemap-pages.xml

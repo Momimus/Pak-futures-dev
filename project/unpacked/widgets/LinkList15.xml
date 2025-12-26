@@ -1,0 +1,16 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="LinkList15" locked="false" title="Social Plugin" type="LinkList" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="link-3">https://</b:widget-setting>
+              <b:widget-setting name="sorting">NONE</b:widget-setting>
+              <b:widget-setting name="text-1">&lt;i class="fab fa-tiktok"&gt;  Follow on Tiktok&lt;/i&gt;</b:widget-setting>
+              <b:widget-setting name="link-1">https://</b:widget-setting>
+              <b:widget-setting name="text-0">whatsapp</b:widget-setting>
+              <b:widget-setting name="link-2">https://</b:widget-setting>
+              <b:widget-setting name="text-3">&lt;i class="fab fa-whatsapp"&gt;  WhatsApp Chanel&lt;/i&gt;</b:widget-setting>
+              <b:widget-setting name="link-0">https://linkedin.com/company/pakfutures/</b:widget-setting>
+              <b:widget-setting name="text-2">&lt;i class="fab fa-telegram"&gt;  Telegram Chanel&lt;/i&gt;</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-82.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d38322e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-62.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d36322e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+          </b:widget>
+          

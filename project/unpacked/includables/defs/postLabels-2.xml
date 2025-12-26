@@ -1,0 +1,14 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="postLabels" var="post">
+              <b:if cond="data:allBylineItems.labels">
+                <b:if cond="data:post.labels">
+                  <div class="post-labels">
+                    <div class="label-head Label">
+                      <b:loop values="data:post.labels" var="label">
+                        <a class="label-link" expr:href="data:label.url" rel="tag"><data:label.name /></a>
+                      </b:loop>
+                    </div>
+                  </div>
+                </b:if>
+              </b:if>
+            </b:includable>
+            

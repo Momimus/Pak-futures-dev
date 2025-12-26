@@ -1,0 +1,6 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="commentAuthorAvatar">
+              <div class="avatar-image-container">
+                <img class="author-avatar" expr:src="data:comment.authorAvatarSrc" height="45" width="45" />
+              </div>
+            </b:includable>
+            

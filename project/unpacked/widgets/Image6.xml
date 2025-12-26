@@ -1,0 +1,15 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image6" locked="true" title="Govt Jobs" type="Image" version="2" visible="true">
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEiDS2kVNVaLKWlHb019x-RKPVgsnh98qG2s4uWmsuKkl93y2e-eSJGx4ww3BaEoyEW9J4u_xGLvhkJqNTRB5VasdGzDEtAcXywPeAUF7uKHOmSvUToR2g9WDZ3qiM1GUNWXshm5U_UtPvBVco1hyyPBTEC7ElLyZ-JHt6gDcqg5ixe3zTghzuiUI7shX0I=s172</b:widget-setting>
+              <b:widget-setting name="displayHeight">172</b:widget-setting>
+              <b:widget-setting name="sectionWidth">150</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">true</b:widget-setting>
+              <b:widget-setting name="displayWidth">150</b:widget-setting>
+              <b:widget-setting name="link">https://www.pakfutures.com/p/all-govt-jobs.html fi-tr-megaphone</b:widget-setting>
+              <b:widget-setting name="caption">(5 Job Positions)</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-21.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d32312e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-14.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d31342e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/servTileCard.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f7365727654696c65436172642e786d6c222c226964656e746966696572223a227365727654696c6543617264227d-->
+          </b:widget>
+          

@@ -1,0 +1,12 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="teamProfile">
+  <ul>
+    <b:loop values="data:authors" var="author">
+      <li>
+        <div class="team-member">
+          <b:include data="author" name="teamProfileLink" />
+        </div>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+            

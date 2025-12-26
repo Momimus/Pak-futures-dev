@@ -1,0 +1,14 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="commentDeleteIcon" var="comment">
+              <span expr:class="&quot;item-control &quot; + data:comment.adminClass">
+                <b:if cond="data:showCmtPopup">
+                  <div class="goog-toggle-button">
+                    <div class="goog-inline-block comment-action-icon" />
+                  </div>
+                  <b:else />
+                  <a class="comment-delete" expr:href="data:comment.deleteUrl" expr:title="data:messages.deleteComment">
+                    <img src="https://resources.blogblog.com/img/icon_delete13.gif" />
+                  </a>
+                </b:if>
+              </span>
+            </b:includable>
+            

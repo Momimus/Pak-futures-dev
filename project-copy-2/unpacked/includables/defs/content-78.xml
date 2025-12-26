@@ -1,0 +1,10 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="content">
+ <div class="widget-content">
+   <ul>
+     <b:loop values="data:items" var="item">
+       <li><data:item /></li>
+     </b:loop>
+   </ul>
+ </div>
+</b:includable>
+          

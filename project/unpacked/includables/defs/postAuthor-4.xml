@@ -1,0 +1,18 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="postAuthor">
+  <span class="byline post-author vcard">
+    <span class="post-author-label">
+      <data:byline.label />
+    </span>
+    <span class="fn">
+      <b:if cond="data:post.author.profileUrl">
+        <meta expr:content="data:post.author.profileUrl" />
+        <a class="g-profile" expr:href="data:post.author.profileUrl" rel="author" title="author profile">
+          <span><data:post.author.name /></span>
+        </a>
+      <b:else />
+        <span><data:post.author.name /></span>
+      </b:if>
+    </span>
+  </span>
+</b:includable>
+            

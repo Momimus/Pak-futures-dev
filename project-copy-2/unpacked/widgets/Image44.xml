@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image44" locked="false" title="Sponsorship" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEhn0eclNL6TVOuXZM-K6b134ELUbJRemUPGzCWgDphV38EgoqHNrldp0Hv6riuB1DAbqEikac1PQyad7kQ3paqQfuKLwxA80AijD4vIMARFZItAG75jy3WMSw29JL3Me2mUo2QSyFjPnVeSmJPFVL4r9K9E48l3sS5vDgHMYXvMxqT_EpnMFJsbU97MnwLd=s348</b:widget-setting>
+                  <b:widget-setting name="displayHeight">348</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">348</b:widget-setting>
+                  <b:widget-setting name="link">Sponsorship</b:widget-setting>
+                  <b:widget-setting name="caption" />
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-61.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d36312e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-52.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d35322e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+              

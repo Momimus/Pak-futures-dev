@@ -1,0 +1,11 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+              <div class="widget-content">
+                <div class="counter-content">
+                  
+                  
+                   <img expr:src="data:sourceUrl" />
+                 
+                </div>
+              </div>
+            </b:includable>
+    

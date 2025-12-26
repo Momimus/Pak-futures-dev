@@ -1,0 +1,9 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="viewProfileLink">
+              <a class="profile_link jobzeek_button medium outline" expr:href="data:userUrl" rel="author nofollow">
+                <b:switch var="data:blog.locale">
+                  <b:case value="id" />Kunjungi profil
+                  <b:default />Visit profile
+                </b:switch>
+              </a>
+            </b:includable>
+          

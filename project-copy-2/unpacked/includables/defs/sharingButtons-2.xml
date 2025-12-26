@@ -1,0 +1,9 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="sharingButtons">
+  <div class="sharing" expr:aria-owns="&quot;sharing-popup-&quot; + data:sharingId" expr:data-title="data:shareTitle">
+    <button class="sharing-button touch-icon-button" expr:aria-controls="&quot;sharing-popup-&quot; + data:sharingId" expr:aria-label="data:messages.share.escaped" expr:id="&quot;sharing-button-&quot; + data:sharingId" role="button">
+      <b:include name="sharingButtonContent" />
+    </button>
+    <b:include name="sharingButtonsMenu" />
+  </div>
+</b:includable>
+            

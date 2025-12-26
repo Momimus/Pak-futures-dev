@@ -1,0 +1,17 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Header2" locked="false" title="Pak Future Jobs , government Jobs, All Jobs in Pakistan , Private Jobs , Forces Jobs, Education Jobs (Header)" type="Header" version="2" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl" />
+              <b:widget-setting name="displayHeight">0</b:widget-setting>
+              <b:widget-setting name="sectionWidth">287</b:widget-setting>
+              <b:widget-setting name="useImage">false</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="imagePlacement">BEHIND</b:widget-setting>
+              <b:widget-setting name="displayWidth">0</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-164.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3136342e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/behindImageStyle-3.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f626568696e64496d6167655374796c652d332e786d6c222c226964656e746966696572223a22626568696e64496d6167655374796c65227d-->
+            <!--INCLUDABLE includables/defs/description-6.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6465736372697074696f6e2d362e786d6c222c226964656e746966696572223a226465736372697074696f6e227d-->
+            <!--INCLUDABLE includables/defs/image-4.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f696d6167652d342e786d6c222c226964656e746966696572223a22696d616765227d-->
+            <!--INCLUDABLE includables/defs/title-3.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f7469746c652d332e786d6c222c226964656e746966696572223a227469746c65227d-->
+          </b:widget>
+          

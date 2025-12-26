@@ -1,0 +1,15 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="sharingButtonsMenu">
+  <div class="share-buttons-container">
+    <ul aria-hidden="true" class="share-buttons hidden" expr:aria-label="data:messages.share.escaped" expr:id="&quot;sharing-popup-&quot; + data:sharingId" role="menu">
+      <b:loop values="(data:platforms ?: data:blog.sharing.platforms) filter (p =&gt; p.key not in {&quot;blogThis&quot;})" var="platform">
+        <li>
+          <b:include name="sharingButton" />
+        </li>
+      </b:loop>
+      <li aria-hidden="true" class="hidden">
+        <b:include name="otherSharingButton" />
+      </li>
+    </ul>
+  </div>
+</b:includable>
+            

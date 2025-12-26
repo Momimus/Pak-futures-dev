@@ -1,0 +1,17 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="LinkList7" locked="false" title="Contact Us" type="LinkList" visible="true">
+            <b:widget-settings>
+              <b:widget-setting name="shownum">10</b:widget-setting>
+              <b:widget-setting name="link-3">/</b:widget-setting>
+              <b:widget-setting name="sorting">NONE</b:widget-setting>
+              <b:widget-setting name="text-1">&lt;i class="fas fa-envelope"&gt;&lt;/i&gt;  Support@PakFutures.com &lt;/a&gt;</b:widget-setting>
+              <b:widget-setting name="link-1">/</b:widget-setting>
+              <b:widget-setting name="text-0">&lt;i class="fas fa-phone"&gt;&lt;/i&gt;  +92 328 2828838 &lt;/a&gt;</b:widget-setting>
+              <b:widget-setting name="link-2">/</b:widget-setting>
+              <b:widget-setting name="text-3">&lt;i class="fas fa-map-marker-alt"&gt;&lt;/i&gt; Main NH-5 Thatta - SIndh Pakistan &lt;/span&gt;</b:widget-setting>
+              <b:widget-setting name="link-0">/</b:widget-setting>
+              <b:widget-setting name="text-2">&lt;i class="fas fa-fax"&gt;&lt;/i&gt; +92-3282828838 &lt;/a&gt;</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-189.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3138392e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-127.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d3132372e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+          </b:widget>
+          

@@ -1,0 +1,28 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="LinkList78" locked="false" title="Footer Social Widget" type="LinkList" version="2" visible="true">
+             <b:widget-settings>
+               <b:widget-setting name="text-9">rss</b:widget-setting>
+               <b:widget-setting name="link-9">https://</b:widget-setting>
+               <b:widget-setting name="text-8">soundcloud</b:widget-setting>
+               <b:widget-setting name="link-7">https://</b:widget-setting>
+               <b:widget-setting name="link-8">https://</b:widget-setting>
+               <b:widget-setting name="link-5">https://www.pintrest.com/pakfutures.org/</b:widget-setting>
+               <b:widget-setting name="link-6">https://</b:widget-setting>
+               <b:widget-setting name="link-3">https://www.instagram.com/pakfutures/</b:widget-setting>
+               <b:widget-setting name="link-4">https://www.linkedin.com/company/pakfutures/ </b:widget-setting>
+               <b:widget-setting name="text-1">x-twitter</b:widget-setting>
+               <b:widget-setting name="text-0">facebook</b:widget-setting>
+               <b:widget-setting name="text-3">instagram</b:widget-setting>
+               <b:widget-setting name="text-2">youtube</b:widget-setting>
+               <b:widget-setting name="text-5">pinterest</b:widget-setting>
+               <b:widget-setting name="text-4">linkedin</b:widget-setting>
+               <b:widget-setting name="text-7">external-link</b:widget-setting>
+               <b:widget-setting name="text-6">gplus</b:widget-setting>
+               <b:widget-setting name="sorting">NONE</b:widget-setting>
+               <b:widget-setting name="link-1">https://twitter.com/PakFutures</b:widget-setting>
+               <b:widget-setting name="link-2">https://www.youtube.com/@pakfutures</b:widget-setting>
+               <b:widget-setting name="link-0">https://www.facebook.com/pakfutures.org/</b:widget-setting>
+             </b:widget-settings>
+             <!--INCLUDABLE includables/defs/main-193.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3139332e786d6c222c226964656e746966696572223a226d61696e227d-->
+             <!--INCLUDABLE includables/defs/content-131.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d3133312e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+           </b:widget>
+         

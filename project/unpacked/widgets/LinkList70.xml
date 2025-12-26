@@ -1,0 +1,17 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="LinkList70" locked="false" title="Boxed Version" type="LinkList" version="2" visible="true">
+        <b:widget-settings>
+          <b:widget-setting name="shownum">8</b:widget-setting>
+          <b:widget-setting name="link-3">https://www.pakfutures.com/</b:widget-setting>
+          <b:widget-setting name="sorting">NONE</b:widget-setting>
+          <b:widget-setting name="text-1">postSummary</b:widget-setting>
+          <b:widget-setting name="link-1">true</b:widget-setting>
+          <b:widget-setting name="text-0">boxedVersion</b:widget-setting>
+          <b:widget-setting name="link-2">https://www.pakfutures.com/</b:widget-setting>
+          <b:widget-setting name="text-3">boxedVersion11</b:widget-setting>
+          <b:widget-setting name="link-0">false</b:widget-setting>
+          <b:widget-setting name="text-2">extended</b:widget-setting>
+        </b:widget-settings>
+        <!--INCLUDABLE includables/defs/main-8.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d382e786d6c222c226964656e746966696572223a226d61696e227d-->
+        <!--INCLUDABLE includables/defs/content-5.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d352e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+      </b:widget>
+      

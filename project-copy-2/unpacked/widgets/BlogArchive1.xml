@@ -1,0 +1,20 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="BlogArchive1" locked="false" title="Archive" type="BlogArchive" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="showStyle">FLAT</b:widget-setting>
+              <b:widget-setting name="yearPattern">yyyy</b:widget-setting>
+              <b:widget-setting name="showWeekEnd">true</b:widget-setting>
+              <b:widget-setting name="monthPattern">MMMM yyyy</b:widget-setting>
+              <b:widget-setting name="dayPattern">MMM dd</b:widget-setting>
+              <b:widget-setting name="weekPattern">MM/dd</b:widget-setting>
+              <b:widget-setting name="chronological">false</b:widget-setting>
+              <b:widget-setting name="showPosts">false</b:widget-setting>
+              <b:widget-setting name="frequency">WEEKLY</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-120.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3132302e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-90.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d39302e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/flat-3.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f666c61742d332e786d6c222c226964656e746966696572223a22666c6174227d-->
+            <!--INCLUDABLE includables/defs/hierarchy-2.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6869657261726368792d322e786d6c222c226964656e746966696572223a22686965726172636879227d-->
+            <!--INCLUDABLE includables/defs/interval-2.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f696e74657276616c2d322e786d6c222c226964656e746966696572223a22696e74657276616c227d-->
+            <!--INCLUDABLE includables/defs/posts-2.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f706f7374732d322e786d6c222c226964656e746966696572223a22706f737473227d-->
+          </b:widget>
+          

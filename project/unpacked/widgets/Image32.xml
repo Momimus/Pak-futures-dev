@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image32" locked="true" title="Accounting" type="Image" version="2" visible="true">
+     <b:widget-settings>
+       <b:widget-setting name="displayUrl">https://1.bp.blogspot.com/-dgU5PzD_800/YVk8N0E_L1I/AAAAAAAAITk/EYwQWzAMU2YzVcndTUjSgyE1-l6yLXtEgCLcBGAsYHQ/w270-h131-p-k-no-nu/63%2B%25281%2529.jpg</b:widget-setting>
+       <b:widget-setting name="displayHeight">200</b:widget-setting>
+       <b:widget-setting name="sectionWidth">150</b:widget-setting>
+       <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+       <b:widget-setting name="displayWidth">250</b:widget-setting>
+       <b:widget-setting name="link">/#Know More</b:widget-setting>
+       <b:widget-setting name="caption">97 Jobs available</b:widget-setting>
+     </b:widget-settings>
+     <!--INCLUDABLE includables/defs/main-43.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d34332e786d6c222c226964656e746966696572223a226d61696e227d-->
+     <!--INCLUDABLE includables/defs/content-35.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d33352e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+   </b:widget>
+   

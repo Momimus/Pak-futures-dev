@@ -1,0 +1,9 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="snippetedPostContent">
+  <div class="post-content">
+    <b:include cond="data:this.postDisplay.showTitle" name="snippetedPostTitle" />
+    <b:include cond="data:this.postDisplay.showDate or data:this.postDisplay.showAuthor" name="snippetedPostByline" />
+    <b:include cond="data:this.postDisplay.showSnippet" data="post" name="postSnippet" />
+    <b:include cond="data:this.postDisplay.showFeaturedImage and data:post.featuredImage" name="snippetedPostThumbnail" />
+  </div>
+</b:includable>
+            

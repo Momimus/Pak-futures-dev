@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Label11" locked="false" title="ARCHITECT$type=one$count=3" type="Label" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="sorting">ALPHA</b:widget-setting>
+              <b:widget-setting name="display">LIST</b:widget-setting>
+              <b:widget-setting name="selectedLabelsList" />
+              <b:widget-setting name="showType">ALL</b:widget-setting>
+              <b:widget-setting name="showFreqNumbers">false</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-100.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3130302e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/cloud-2.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636c6f75642d322e786d6c222c226964656e746966696572223a22636c6f7564227d-->
+            <!--INCLUDABLE includables/defs/content-77.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d37372e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/list-3.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6c6973742d332e786d6c222c226964656e746966696572223a226c697374227d-->
+          </b:widget>
+          

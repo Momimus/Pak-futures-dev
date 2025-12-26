@@ -1,0 +1,7 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="teamProfileLink">
+  <a class="profile-link g-profile" expr:href="data:userUrl" rel="nofollow">
+    <b:include name="profileImage" />
+    <span class="profile-name"><data:display-name /></span>
+  </a>
+</b:includable>
+            

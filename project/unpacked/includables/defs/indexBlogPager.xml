@@ -1,0 +1,9 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="indexBlogPager">
+              <!-- Post Pagination Index -->
+              <b:if cond="data:olderPageUrl">
+                <div class="blog-pager container" id="blog-pager">
+                  <b:include name="nextPageLink" />
+                </div>
+              </b:if>
+            </b:includable>
+            

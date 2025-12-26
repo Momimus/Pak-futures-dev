@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Label6" locked="false" title="RECENT WITH THUMBS$type=blogging$m=0$cate=0$sn=0$rm=0$c=4$va=0" type="Label" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="sorting">ALPHA</b:widget-setting>
+              <b:widget-setting name="display">CLOUD</b:widget-setting>
+              <b:widget-setting name="selectedLabelsList">Atomic Energy Jobs,Contract Base Jobs,FBR Jobs,FPSC Jobs,GB Medical Jobs,Punjab Police Jobs,Railways Jobs</b:widget-setting>
+              <b:widget-setting name="showType">ALL</b:widget-setting>
+              <b:widget-setting name="showFreqNumbers">false</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-128.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3132382e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/cloud-13.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636c6f75642d31332e786d6c222c226964656e746966696572223a22636c6f7564227d-->
+            <!--INCLUDABLE includables/defs/content-92.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d39322e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/list-14.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6c6973742d31342e786d6c222c226964656e746966696572223a226c697374227d-->
+          </b:widget>
+          

@@ -1,0 +1,415 @@
+I have elements in a flex
+There's a problem:
+- i added that text should not wrap
+- but instead wrap the text. but make image smaller.
+- you can use flex of image and text, so that image can shrink
+
+Give me updated css only.
+
+Here's code:
+<div class="section subcat" id="sub-cat-list" name="Service List 1">
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="FPSC Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI1esQjkAl9iXDKU-E4HjU2zf55Vhht0hD_ha-GO_I66SlVvOCQIE4SeEHo1pl4XOezAmUEQT8buK6JwRjg6tC1yVaL4RRKbQahz9mn1zZZruAt10VKBcC82_VZapg1a7oWfaNDSYRIIFwBwmvaEuGYuBmcONrxKsSWCxqehTMui8qy8HAmO5X4boF926V/s1032/CareersHelpDesk-FPSC-Jobs-August-2019.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">FPSC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikU8Ulb8JskkTmXfDyeEBTarBG99t5rRCohKX7gjyNdlC9A_U_2p9tGwaC46b8GZn9SoNphXyoinlVV3llHuV9yLt_uYKHrWT3LRemTYoh2kLbLktvLQkD7dzfRZJ97fz86kcZlKXHR2VxRfXgtnBjISqoyZqGD2Sg-bcja8UZVRRME6D136d0yirmg0YN/s216/PPSC_Logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">PPSC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQvBIAXBR9mQX39QfuTE-UqzQ-Ct-IIqsvJizBzbhOEzJWsmmwtlNlKRF1vLD2LKuSfZTbD6ZfG12PZCFjDDqgHV3dLns_B8sGtFPPJw_VnGve0QrJpYIQs3jNtFa6htWbBPFYiikAu25vB6-M1uLpEAon6_49nXixm8zDnCJjJLJXDv-EBW8LsMc9QtRA/s218/SPSC-logo.jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">SPSC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdR5YGsg-ZA2giCYn9wnkChSg5G5o-fphQCzOTPglAxrBWvUKwXjB-4s6bU9W3jIT86PDCCOyEK_iT9XsADdZRv63h0hAgcrQc9lJtmoUpY9wBmPYEukJu_fVn8-1qgfZ36aPf0huRYKcP5nRl2UkH3g7duWSMPt3XAEyxCmXHzNqOXl8wDPrPifhu-wOp/s225/images.jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">KPPSC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoc3k4B-bmBPwlTJm48gNdzc6kMGp00VAq3qBInAZtlh5Uk7CkfV6l8TM07zmfE6L9RTA6CdSD7m3msobURQdbSivNnu6JIDZuepiLh4k77-54EDk7D-Su29ndvx8IsflxBMlA1f8ChpWmD6cxBRkQ_Xau2a-Yr2zcoWotDh2CSfB6tdP42GNn63xpHFtH/s562/bpsc-1021x580.jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">BPSC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgklf6zIeoVXJ9rgYJukoVfqw9bPjfedTo9l0A0Q5zQaaYbYK2UaVpYsWepGeOTdFYX8FT145TWQ8IehZNwHuGfjVL9uZMJSUW6ZPKtnEhLKnVtHUOQXj_OkuBWmE44enCQY0gimamIVvhQJTYciICkTMLw6XZVCkOMLxV4cbCmYC88AoF9IlWdBM2LrBra/s300/logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">GBPSC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeY-uEe59Qz4pMf5zTJ0ShSNP9lGecM3PfaHAJxA0kGWkHyv1opj_A2NqJdB9h4SKdUHeG_IOnKYLTwsWzIRXEYKka-sXQaP7VfVDrOvE5kGYHD0LQ_2R6WxVYntHQ_ZvgDJ1RlzHAcT3pUSmdDDojM9SR7-XcvJiDu0C80sUahl035wbKvKgCEL0fsCtX/s1600/images%20(1).jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">AJKPSC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiii5FFgL-icMHuB_ieYuFthk9-wMV6dG4Y0vg8PLjcV1FXYQkpn15LXDEsdq4tW3uQj5T3k3wZQPlB_XmcZ6hSU_dJH1AkXgft1EkZfdZPGCGP-t72RJELNqnXOXXJCI7QknqAFf_xpNnQw7ZHNJe6z94Zmonz9puCCRt-Ry2GOvzkftoYQMqJJhqV7LnT/s672/35619482.jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">NADRA Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfnjACiphTilvK455mqjrVKHq07oEu_xTEljoT8sn0E14jTgFGQurpwm6vGakJBcGuMMWPulUjzn2fyWGLA_em6I5TPjQ4CT57R0D_VORTX_6gI81efEPz8CgkSuLHIjSq1WVmBnmMemHemJZeHgJyCNWK9gzs6UrSzRshWCec4ZWBu7iba7ktPdufYXCC/s300/pakistan-atomic-energy-commission-logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">Auomic Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLQ46araMgoSGj0E80O_wZKRh7wiAWM6aOxCyWBnj3oTb4k6ymaSTrDCRTwjMCFpF9opWA9aXxFeLnZM_6EEQg2m1sOTZfrrgnGaklJa8rhyTdVcI5Y7UfmJZmpLTGAcB1uO_3BmnN5wsVuuQXlzxrbAgeEylvnTZ1RyKl3IB31AuDvYNeOg-8Iv4YZRpC/s1024/nab_logo-1024.jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">NAB Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidMWmwarp-aSbniZjW1_2RJQKxbcoPSX9u0mAtzWB6HyJZXuxl5J4SVxpCgQy5tUD7g5hX7JhalTDUje5ST_GUFAKaJEcdmlFmkDhBiZCCuVno5RK3TFNZtbTjGq27s00i5fkrj0tzD_6ocGaSq0XFpRX6QCCVMc4aCLMzCkiuKkWKI3rGr_I3UQq2FyRC/s1600/logo1.jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">PTS Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy6ig4giyjsqJ1JRGwkKvoTKra8KvgXnOl6-_T5FyxHqZ8LwKjcciFTKCbKrdxj7rLMRYBgrYEI-rBQ2dNlSQaophA5ePVGgsasmLAVhh77BA8uZ1McNFrJy3YXhCKpsGbYr7RXBwm0f8s3lyZ_wkPIYWSm_lv8Vvc_6wC5jCacwvbSwpg93-AkglUn5Su/s364/nts_logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">NTS Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGIEIRuyYVaKewwlx4LVZRXrxeipT0HqUrOhnE0BnmgK3qlEiYbmADeTaCGIGVZt52l2VBKqS7RhvCU9WxwFBXhX3JFrkd4IW9jOfiNu0TTpwKFXZALAdE-lVCHmlPpqLXjWxaMRwf_wiYqDmmUobC94RRGcIWz-JHaP2VcXnLjJTds4nBsuNCjXu7i0ZR/s320/pakistan-railways-logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">Railway Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO4rL-srLg0nGxPrOvXkiiFnmsBB37H1Kiy2wJdxE5VLohf-rZr41c9TZ672cnAV1Z1CzRzS7q6hXWl0etvLsht63iLqYhHmbysoaHLUaANj6YL2In_mFCGVvP21UzQDvUNWdSgrCateLSe-jYmUfialec5WcqEU7SJjkml35DWF-rLRWou07ySZtN978X/s1600/fbr-logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">FBR Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ7xilm2dzD9PHxsHcrb6u3cBZgW076H98klsD8OeJjxNI3US3RzC1ZjF9LxsFdX3TZMpL5iwMWqJzBaWW-PxejZB5TaiCMIhGP75J5lv1hp3osG8007nXh81mORhQiDErV8oC0XrBRnJ8az-nLEiYybzxWp3mN_r5lsFpQ8JDm7hhys9K9vjYHaLy2c27/s1600/PIA_logo_Pakistan_International_Airlines_logotipo_small.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">PIA Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfn_BsR005SygjgguJbSel54KL0WAX4etlBLRUKTCIfXLV0UM4mLcX9VvfnCWDMV8c3b9bHuG9ZZ2B2YAwtvJ2kEFQQqUhRvG5w4Yy3LDrFsLlPpN3A2uVE99S9pR7S9bUpAi7yljPezIWTqTLlmUFvvjEriiwOxBjzOLTCxa8B2Wya9zqTyTeTd4uTERu/s320/pcb-logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">PCB Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt5to9DimVxL6pMCG7Fi0DxreDP07UNLGvwwOaSWWrMrYncaApqXAj2u3IhJeMFrQni4Sac-8E1BDHSNf8mh9CrmJQjG4tq0SdkQMApJK3PQonve7u7FNWC2lBpqLF0bbBK73DJIAKBF39YCme8wFwFxQGSV0qM8x2wkTXB5MOP3F1aRd_H_YWk0XKgrJB/s207/Bait-UL-Mal-Logo.jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">Bait ul Maal Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo6mg5P9p_-ni405KdJgDsBrBQU3__VqDtUMdONTxFcFqKMJnClAm0wsYfaL1GCKo5D1z-1y0GFPBRNAJGsGU6k9l3_BP9SH-xX-gRdpGDJQLI_rIgQgoUpNFxFNEwxny-YjLlx0I3ghxwK_AUtwm1d4fxrNU_NAo-nAi4wsZlx6Xb7aukweOV1ce5Ro5V/s225/images.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">NDMA Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBIN3rU0b64SMKm0teo-j01f8FyMroiPM6iBFav3gM0EIkMv_ohDDVKCLemRsMQinVfIhtBao87ZyYNaqx-kRI9Ci_qp3iXkwa-WF6tZPQJz-RUZJjgMFEeflFae78Y6lVyE7P-dhyF_2OpF5_2oM8ycZx1wOGZQbIhuyzGUDI9l9e7-huQOT4ECo6A-3T/s275/National_Highway_Authority_Logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">NHA Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUJFSoWDL-Vw22Qd3yJwLG-G-Kn2SAHsDsndnkv1d93oGK1_YvSnE973866gR6rOLRg9peBztKqK9q5PE0GA-QN5c94gWD02HLsCKi5kTisirJbIRW6oURLDZbOH_6vCLS6fFMXPjkm4vtiExUzv9yTp-UAPSqTSooctovzz6gGqtl0HZad1GGF1s09UA2/s320/Pakistan_Civil_Aviation_Authority_(PCAA)_Logo.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">CAA Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRY5gg3ns0_h_Pr-Ct9Ypzig0Bb7Fy_dRunwleAhUA-lTWvYv-6fX7QSBSw-JPy5CXNe8rQ8ouvSBscVJ2DoysKDC1gKdWPCYOMHGwmCy3BggTfj8Kwk0XHLl_C4BOLoYZjBUpPO7F_KBzLOf_KAgwr9JpixzF_9_EfEXsA8ZtE88ZvoLip64MCx99XyIY/s185/pakistan-software-export-board-pseb-logo-png_seeklogo-610709.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">PSEB Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu61aFqowr0pwnGOOt-4cGdNS0EbPLNf75-XCHM_5o4XkYVVQqw4Oj28RXvhCv2WaaLBkfBhbwvnMMRXX3AJpHs4NwQn-cvXs-IJlDLXCOqyAqt1QYoEN7hZfALY6Dsl0_NNBzkZsILl7zeCspETIIXD3YuHUicDHGg-qoqdh_PvpqetMWQRRcqOwtp6Ec/s225/images%20(2).jpg" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">MISC Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+                <div class="serv-tile-box-avatar">
+                    <img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8tLhxhLvS97XYnokTkRl7DPjYPTUkxu2TtCXxGwEs2i-o_wa5auP8rfDw1PKj0qDUS2cJ8EzxayMYtJfgc1W0yPiAoDT683w63HLn0RpJkClqMwxrYZayCr7AgI04Kjznj2T1_rxsk6ssOQOBekfWvraCWzAu3MX234DTOZsCSsWbr2Fmw8KDeTtChwfQ/s166/Emblem_of_the_Election_Commission_of_Pakistan.svg.png" />
+                </div>
+                <div class="serv-tile-box-info">
+                    <h3 class="serv-tile-box-title">ECP Jobs</h3>
+
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="widget Image" data-version="2" id="Image6">
+        <div class="widget-content">
+            <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+            </a>
+            <div class="serv-tile-box-avatar">
+                <a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html"><img
+                        alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZe3B16FwXOEs0hVX-HFZdAzucafskE8t2uHJMs58Mq2TjWLSj-ifs7NJAU2ozQpADMHLaN6Dk1TjxDdNGxu08L2ejxmd0iUaJSllRu4nAlvTYddudAX43upq22sRHxXuH8zQcXm08yrpKyGhY-z4uVHQs3VW5EYxo9oTtZwP2Goa7etyqcs0yeeDELk4/s320/url35.jpeg" />
+                </a>
+            </div>
+            <div class="serv-tile-box-info">
+                <h3 class="serv-tile-box-title"><a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">PTCL Jobs</a></h3>
+            </div><a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html">
+            </a>
+        </div>
+    </div>
+
+
+</div>
+
+<style>
+    #sub-cat-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #sub-cat-list .widget.Image {
+        min-width: calc( 16.5% - 20px );
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    #sub-cat-list .serv-tile-box-link{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Responsive single-line titles using vw across all breakpoints */
+    .serv-tile-box-title {
+        /* font-size: 1vw !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.2; */
+    }
+
+</style>

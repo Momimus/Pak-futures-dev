@@ -1,0 +1,4 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="sharingPlatformIcon">
+  <b:include data="{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }" expr:name="data:platform.key + &quot;Icon&quot;" />
+</b:includable>
+            

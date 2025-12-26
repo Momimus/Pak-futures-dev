@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image150" locked="false" title="Our Pak Job site" type="Image" version="2" visible="true">
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEjdzVNKuXDvqtjVkhCwpyZZbpFPmzlg-h1F10oVMM1vE1w4V8mK9CZKF_BVXM3P2SwOn4A44XMgI-DlJcrPoruw6hwoj7Bw9TSHHwnoolMANgrhFK9M619JNtil_SLV1yvuiYSNDgcpEa9bndUurTN3ZA5h-RKLL4LWhfaPwOlGuBh1kr5klWmjgw0ped3t=s500</b:widget-setting>
+              <b:widget-setting name="displayHeight">500</b:widget-setting>
+              <b:widget-setting name="sectionWidth">150</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="displayWidth">500</b:widget-setting>
+              <b:widget-setting name="link">/</b:widget-setting>
+              <b:widget-setting name="caption">Pak Futures provides you the ease of viewing all jobs Ads from various sources like Pakistan leading newspapers Daily Jang, Express,The News, The Nation &amp;amp; Dawn at one single place, Instead of searching the Jobs Advertisements in every newspaper, you can use Pak Futures to find any ad of your interest quickly, Apart from this, on Pak Future you will be informed about the new admissions, results and Scholarships of all the universities &amp; colleges of Pakistan</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-204.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3230342e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-138.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d3133382e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+          </b:widget>
+          

@@ -1,0 +1,44 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML4" locked="false" title="Menu Bar Bawah" type="HTML" version="2" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="content">&lt;div class="bottom_bar_menu_widget"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;a class="menu_button" href="javascript:;"&gt;
+        &lt;svg fill="none" stroke="currentColor" viewbox="0 0 24 24"&gt;&lt;path d="M19 17H5c-1.103 0-2 .897-2 2s.897 2 2 2h14c1.103 0 2-.897 2-2s-.897-2-2-2zm0-7H5c-1.103 0-2 .897-2 2s.897 2 2 2h14c1.103 0 2-.897 2-2s-.897-2-2-2zm0-7H5c-1.103 0-2 .897-2 2s.897 2 2 2h14c1.103 0 2-.897 2-2s-.897-2-2-2z"&gt;&lt;/path&gt;&lt;/svg&gt;
+        &lt;span&gt;Menu&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;a class="search_btn" href="javascript:;"&gt;
+        &lt;svg fill="none" stroke="currentColor" viewbox="0 0 24 24"&gt;&lt;path d="m18.031 16.617l4.283 4.282l-1.415 1.415l-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9s9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617z"&gt;&lt;/path&gt;&lt;/svg&gt;
+        &lt;span&gt;Pencarian&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;a href="#"&gt;
+        &lt;svg fill="none" stroke="currentColor" viewbox="0 0 24 24"&gt;&lt;path clip-rule="evenodd" d="M12 2a1 1 0 0 1 1 1v1.055c2.174.247 3.665 1.296 4.611 2.61C18.662 8.123 19 9.84 19 11v3.586l1.707 1.707A1 1 0 0 1 20 18H4a1 1 0 0 1-.707-1.707L5 14.586V11c0-2.726 1.158-4.526 2.666-5.612C8.745 4.612 9.967 4.224 11 4.075V3a1 1 0 0 1 1-1zM8.126 19c.117.477.324.99.662 1.46C9.424 21.341 10.474 22 12 22c1.526 0 2.576-.658 3.211-1.54c.339-.47.546-.983.663-1.46H8.126z" fill-rule="evenodd"&gt;&lt;/path&gt;&lt;/svg&gt;
+        &lt;span&gt;Mengikuti&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;a href="javascript:;"&gt;
+        &lt;svg fill="none" stroke="currentColor" viewbox="0 0 24 24"&gt;&lt;path d="M17 12V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v14l4-4h10a1 1 0 0 0 1-1m4-6h-2v9H6v2a1 1 0 0 0 1 1h11l4 4V7a1 1 0 0 0-1-1Z"&gt;&lt;/path&gt;&lt;/svg&gt;
+        &lt;span&gt;Group WA&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;a class="back_to_top_button" href="javascript:;"&gt;
+        &lt;svg fill="none" stroke="currentColor" viewbox="0 0 24 24"&gt;&lt;g transform="rotate(180 12 12)"&gt;&lt;path d="M5 21h14c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM7.707 9.293L12 13.586l4.293-4.293l1.414 1.414L12 16.414l-5.707-5.707l1.414-1.414z"&gt;&lt;/path&gt;&lt;/g&gt;&lt;/svg&gt;
+        &lt;span&gt;Ke Atas&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-164.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3136342e786d6c222c226964656e746966696572223a226d61696e227d-->
+          </b:widget>
+          

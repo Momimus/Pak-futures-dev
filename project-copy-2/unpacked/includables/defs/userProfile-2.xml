@@ -1,0 +1,5 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="userProfile">
+  <b:include name="userProfileImage" />
+  <b:include name="userProfileInfo" />
+</b:includable>
+            

@@ -1,0 +1,12 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="posts" var="posts">
+      <ul class="posts hierarchy">
+        <b:loop values="data:posts" var="post">
+          <li>
+            <a expr:href="data:post.url">
+              <data:post.title />
+            </a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:includable>
+          

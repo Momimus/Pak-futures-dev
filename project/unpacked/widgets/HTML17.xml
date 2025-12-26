@@ -1,0 +1,11 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML17" locked="true" title="Find out more about what we do" type="HTML" version="2" visible="false">
+             <b:widget-settings>
+               <b:widget-setting name="content">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+ &lt;div class="small-button"&gt;
+&lt;a class="button medium" href="#"&gt;Learn Methods&lt;/a&gt;
+&lt;/div&gt;</b:widget-setting>
+             </b:widget-settings>
+             <!--INCLUDABLE includables/defs/main-39.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d33392e786d6c222c226964656e746966696572223a226d61696e227d-->
+           </b:widget>
+         

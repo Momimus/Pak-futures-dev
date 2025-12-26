@@ -1,0 +1,19 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML52" locked="false" title="Senior Management Jobs" type="HTML" visible="true">
+          <b:widget-settings>
+            <b:widget-setting name="content">&lt;div class="job-carousel-container senior-jobs"&gt;
+  &lt;div class="job-carousel-header"&gt;
+    &lt;h2 class="job-carousel-title"&gt;Senior Management Jobs&lt;/h2&gt;
+    &lt;a class="job-carousel-view-all" href="/search/label/Senior+Management+Jobs"&gt;View All&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class="job-carousel-swiper swiper" data-label-filter="Senior Management Jobs"&gt;
+    &lt;div class="swiper-wrapper job-carousel-wrapper"&gt;
+      &lt;!-- Jobs will be loaded via JavaScript --&gt;
+    &lt;/div&gt;
+    &lt;div class="swiper-button-prev job-carousel-prev"&gt;&lt;/div&gt;
+    &lt;div class="swiper-button-next job-carousel-next"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</b:widget-setting>
+          </b:widget-settings>
+          <!--INCLUDABLE includables/defs/main-67.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d36372e786d6c222c226964656e746966696572223a226d61696e227d-->
+        </b:widget>
+      

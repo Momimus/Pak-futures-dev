@@ -1,0 +1,11 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="post" var="post">
+              <!-- Post Index -->
+              <b:if cond="data:view.isMultipleItems">
+                <b:include data="post" name="indexPost" />
+              </b:if>
+              <!-- Post Item -->
+              <b:if cond="data:view.isSingleItem">
+                <b:include data="post" name="itemPost" />
+              </b:if>
+            </b:includable>
+            

@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image15" locked="false" title="" type="Image" visible="false">
+      <b:widget-settings>
+        <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEip01ojLmmU0sczkHWM3YLNIG_wdxpjIUqu_oh0oX9lnPGmQt9EKwTInTtJ34MExelLBDG2d-LCoYzHOtrUcoFLc4vuHzGF-Re06tkPTT85cHPgrbltHceOZjPPddLQcS7pNEB0XtamzCyJG83zzNMDq5lWa-6N3GuEyo-ALZ-SXF2xmsPcIf0kMOTHhaMa=s225</b:widget-setting>
+        <b:widget-setting name="displayHeight">225</b:widget-setting>
+        <b:widget-setting name="sectionWidth">150</b:widget-setting>
+        <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+        <b:widget-setting name="displayWidth">225</b:widget-setting>
+        <b:widget-setting name="link" />
+        <b:widget-setting name="caption" />
+      </b:widget-settings>
+      <!--INCLUDABLE includables/defs/main-56.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d35362e786d6c222c226964656e746966696572223a226d61696e227d-->
+      <!--INCLUDABLE includables/defs/content-44.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d34342e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+    </b:widget>
+    

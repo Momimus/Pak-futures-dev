@@ -1,0 +1,19 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="interval" var="intervals">
+  <ul class="hierarchy">
+    <b:loop values="data:intervals" var="interval">
+      <li class="archivedate">
+        <div class="hierarchy-title">
+          <a class="post-count-link" expr:href="data:interval.url">
+            <data:interval.name />
+            <span class="post-count"><data:interval.post-count /></span>
+          </a>
+        </div>
+        <div class="hierarchy-content">
+          <b:include cond="data:interval.data" data="interval.data" name="interval" />
+          <b:include cond="data:interval.posts" data="interval.posts" name="posts" />
+        </div>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+            

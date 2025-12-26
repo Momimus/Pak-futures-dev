@@ -1,0 +1,46 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML26" locked="false" title="Ads" type="HTML" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="content">&lt;h3 style="color:#333;font-size: 36px;font-weight: 600;text-align: center;"&gt;Pak&lt;span style="color: #d8683;"&gt;futures&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rhoncus vehicula tortor, vel cursus elit. Donec nec nisl felis. Pellentesque ultrices sem sit amet eros interdum, id elementum nisi ermentum.Vestibulum rhoncus vehicula tortor, vel cursus elit. Donec nec nisl felis. Pellentesque ultrices sem sit amet eros interdum, id elementum nisi fermentum.&lt;/p&gt;
+&lt;br /&gt;
+&lt;a href="#" class="email" data-original-title="" title="" style="
+    color: #333;
+"&gt;&lt;i class="fa fa-envelope" style="
+    color: #d8683;
+    float: left;
+    padding: 4px 20px 0 0;
+"&gt;&lt;/i&gt;Support@PakFutures.com&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div id="footer-social-icons"&gt;
+&lt;a href="URL-HERE" title="Facebook" target="_blank" rel="nofollow"&gt;&lt;i class="fa fa-facebook"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href="URL-HERE" title="Twitter" target="_blank" rel="nofollow"&gt;&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href="URL-HERE" title="Instagram" target="_blank" rel="nofollow"&gt;&lt;i class="fa fa-instagram"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href="URL-HERE" title="Linkedin" target="_blank" rel="nofollow"&gt;&lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href="URL-HERE" title="YouTube" target="_blank" rel="nofollow"&gt;&lt;i class="fa fa-youtube"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href="URL-HERE" title="Telegram" target="_blank" rel="nofollow"&gt;&lt;i class="fa fa-telegram"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a href="URL-HERE" title="WhatsApp" target="_blank" rel="nofollow"&gt;&lt;i class="fa fa-whatsapp"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;style&gt;
+#footer-social-icons a {
+background: #333;
+color: #fff;
+display: inline-block;
+text-align: center;
+font-size: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+margin: 0 1px 6px;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+border-radius: 100%;
+}
+#footer-social-icons a:hover{
+background: #3333;
+}
+&lt;/style&gt;</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-113.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3131332e786d6c222c226964656e746966696572223a226d61696e227d-->
+          </b:widget>
+          

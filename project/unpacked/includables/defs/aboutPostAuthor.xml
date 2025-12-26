@@ -1,0 +1,16 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="aboutPostAuthor">
+              <div class="about-author">
+                <div class="avatar-container">
+                  <b:if cond="data:post.author.authorPhoto.image">
+                    <img class="author-avatar" expr:alt="data:post.author.name" expr:src="data:post.author.authorPhoto.image resizeImage 100" />                
+                    <b:else />
+                    <img class="author-avatar" expr:alt="data:post.author.name" src="https://4.bp.blogspot.com/-uCjYgVFIh70/VuOLn-mL7PI/AAAAAAAADUs/Kcu9wJbv790hIo83rI_s7lLW3zkLY01EA/s100/avatar.png" />
+                  </b:if>
+                </div>
+                <h3 class="author-name">
+                  <span><data:messages.postedBy /></span><a expr:alt="data:post.author.name" expr:href="data:post.author.profileUrl" target="_blank"> <data:post.author.name /></a>
+                </h3>
+                <span class="author-description"><data:post.author.aboutMe /></span>
+              </div>
+            </b:includable>
+            

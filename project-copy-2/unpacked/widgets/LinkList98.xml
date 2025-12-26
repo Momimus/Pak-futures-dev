@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="LinkList98" locked="false" title="FAQ Section" type="LinkList" version="2" visible="false">
+     <b:widget-settings>
+       <b:widget-setting name="sorting">NONE</b:widget-setting>
+       <b:widget-setting name="text-1">Design &amp; Creative</b:widget-setting>
+       <b:widget-setting name="link-1">PAK Futures: A modern job board and career platform developed with HTML, CSS, and JavaScript. We connect job seekers and employers using a responsive, secure, and user-friendly web interface powered by cutting-edge programming languages and database technology. Find your next career opportunity or the perfect candidate today.</b:widget-setting>
+       <b:widget-setting name="text-0">AI Services</b:widget-setting>
+       <b:widget-setting name="link-2">At Pak Futures, we understand that applying for a job can sometimes be challenging. That's why our dedicated admin team is here to assist you every step of the way. Whether you have questions about the application process, need help with your resume, or require guidance on job search strategies, our admin is ready to contact you at any time.  Feel free to reach out if you encounter any difficulties. We're committed to making your job search as smooth and successful as possible!</b:widget-setting>
+       <b:widget-setting name="link-0">Focus on simplicity: "Simplify your job search with our website. We provide a range of tools to help you find and apply for your next opportunity easily and efficiently." Focus on features: "Navigate the job market with ease. Our website is equipped with powerful tools designed to help you find and land the perfect job faster." Focus on the outcome: "Ready to find your next job? Our website offers easy-to-use tools to streamline your search and connect you with employment opportunities." Highlight job-specific tools: "Our platform offers specialized tools to help you find the perfect job in [specific industry, e.g., tech, marketing, etc.] easily." Combine elements: "Find your next job with ease using the powerful tools on our website. We provide the resources you need to simplify your search and find great employment opportunities." </b:widget-setting>
+       <b:widget-setting name="text-2">Admin &amp; Support</b:widget-setting>
+     </b:widget-settings>
+     <!--INCLUDABLE includables/defs/main-201.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3230312e786d6c222c226964656e746966696572223a226d61696e227d-->
+     <!--INCLUDABLE includables/defs/content-137.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d3133372e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+   </b:widget>
+   

@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image36" locked="false" title="NGOS Jobs" type="Image" visible="true">
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEh6PJ04VhEY8tOaFXexJJBrlkvRagQErC_eF7CX8RHdQRv61lYRJQonMMGPqHwDIp2vznPZ6_SxnOPkeor9oP71VCUKUvtMuf6YVTINp_LNExDNtaRGHsf-cICGsw2kzgOHvPvvnO40V1AZIzGKBcoP5ebz6hZWreiK5NnX0N2K5Au4oslKdhE0UStNPZQ3=s246</b:widget-setting>
+              <b:widget-setting name="displayHeight">205</b:widget-setting>
+              <b:widget-setting name="sectionWidth">150</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="displayWidth">246</b:widget-setting>
+              <b:widget-setting name="link" />
+              <b:widget-setting name="caption" />
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-30.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d33302e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-23.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d32332e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+          </b:widget>
+          

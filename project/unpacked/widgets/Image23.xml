@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image23" locked="false" title="Forces Jobs" type="Image" visible="true">
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgQ3cYL0PbczLwdyMHA99MNK2OdS6aXOmSrz62DXasX4RwDqDkSJspR-5rTzDx8o4JMmU6JY-WYanngI_vjhJxQcsRPxbyj76y-VqPKP1CBYsQ1oCK9luEIFdHDdNkvd8BP_QnTjb85pHNtBJOHMtBgaxszEhuQz_jaV-X5G1Fwp_gzmjhhNa34-R6HDFNx=s323</b:widget-setting>
+              <b:widget-setting name="displayHeight">323</b:widget-setting>
+              <b:widget-setting name="sectionWidth">150</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="displayWidth">320</b:widget-setting>
+              <b:widget-setting name="link" />
+              <b:widget-setting name="caption" />
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-28.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d32382e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-21.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d32312e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+          </b:widget>
+          
