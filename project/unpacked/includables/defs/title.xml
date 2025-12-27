@@ -1,0 +1,8 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="title">
+    <h1>
+      <b:tag cond="data:view.url != data:blog.homepageUrl" expr:href="data:blog.homepageUrl" name="a">
+        <data:title />
+      </b:tag>
+    </h1>
+  </b:includable>
+              

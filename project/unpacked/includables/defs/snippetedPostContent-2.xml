@@ -1,0 +1,27 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="snippetedPostContent">
+            <article class="post_outer">
+              <div class="post_detail">
+                <div class="post_header">
+                  <div class="post_header_start">
+                    <div class="post_top">
+                      <b:include cond="data:postDisplay.showFeaturedImage and data:skin.vars.optionFeaturePostThumbnails == &quot;2px&quot;" name="snippetedPostThumbnail" />
+                      <b:include cond="data:postDisplay.showTitle" name="snippetedPostTitle" />
+                    </div>
+                    <div class="post_bottom">
+                      <b:if cond="data:post.labels all (p =&gt; p.name not in [&quot;Artikel&quot;,&quot;Article&quot;,&quot;Dokumentasi&quot;,&quot;Widget&quot;])">
+                        <b:include data="post" name="postBodyLoker" />
+                        <b:elseif cond="data:post.labels all (p =&gt; p.name in [&quot;Artikel&quot;,&quot;Article&quot;,&quot;Dokumentasi&quot;,&quot;Widget&quot;])">
+                          <b:include name="snippetedText" />
+                        </b:elseif>
+                      </b:if>
+                    </div>
+                  </div>
+                  <div class="post_header_end">
+                    <b:include name="postShareButtonInHomepage" />
+                  </div>
+                </div>
+                <b:include name="postFooter" />
+              </div>
+            </article>
+          </b:includable>
+            

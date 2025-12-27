@@ -1,0 +1,14 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="footerBylines">
+  <b:if cond="data:widgets.Blog.first.footerBylines">
+    <b:loop index="i" values="data:widgets.Blog.first.footerBylines" var="region">
+      <b:if cond="not data:region.items.empty">
+        <div expr:class="&quot;post-footer-line post-footer-line-&quot; + (data:i + 1)">
+          <b:with value="&quot;footer-&quot; + (data:i + 1)" var="regionName">
+            <b:include data="region.items" name="bylineRegion" />
+          </b:with>
+        </div>
+      </b:if>
+    </b:loop>
+  </b:if>
+</b:includable>
+            

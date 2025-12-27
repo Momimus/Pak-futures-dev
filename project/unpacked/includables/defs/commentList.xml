@@ -1,0 +1,8 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="commentList" var="comments">
+              <div id="comments-block">
+                <b:loop values="data:comments" var="comment">
+                  <b:include data="comment" name="commentItem" />
+                </b:loop>
+              </div>
+            </b:includable>
+            

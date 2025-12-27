@@ -1,0 +1,14 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="menu" var="data">
+      <select onchange="location = this.value;">
+        <option expr:value="data:blog.homepageUrl">
+          <data:messages.archive />
+        </option>
+        <b:loop values="data:this.data" var="i">
+          <option expr:value="data:i.url">
+            <data:i.name />
+            <data:i.post-count />
+          </option>
+        </b:loop>
+      </select>
+    </b:includable>
+            

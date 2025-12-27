@@ -1,0 +1,13 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="snippetedPostByline">
+  <b:with value="(data:widgets first (w =&gt; w.type == &quot;Blog&quot;)).allBylineItems" var="blogBylines">
+    <div class="item-byline">
+      <b:with value="data:blogBylines first (i =&gt; i.name == &quot;author&quot;)" var="byline">
+        <b:include cond="data:byline and data:this.postDisplay.showAuthor" data="post" name="postAuthor" />
+      </b:with>
+      <b:with value="data:blogBylines first (i =&gt; i.name == &quot;timestamp&quot;)" var="byline">
+        <b:include cond="data:byline and data:this.postDisplay.showDate" data="post" name="postTimestamp" />
+      </b:with>
+    </div>
+  </b:with>
+</b:includable>
+            

@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image43" locked="false" title="Ehsaas" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEiwYVPkJDr8SfTMt8chXwTwi5q7vFY0oJoEGKZ_7m6NSKuYKN977JGn2kD70JVi8xROAOrz9Oi5JUNR2w3PQeMT-ucgrjbzlpKbc7JK6JTbN9R8D6eQb_NRLhJFpNo_6GpQr1bUOPN-WIb5ooajP8AAZfRvSx63MFEPw1xKHKpHeiYN-T-LXlQcQ9aRJFKF=s800</b:widget-setting>
+                  <b:widget-setting name="displayHeight">662</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">800</b:widget-setting>
+                  <b:widget-setting name="link">Ehsaas</b:widget-setting>
+                  <b:widget-setting name="caption" />
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-62.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d36322e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-53.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d35332e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+              

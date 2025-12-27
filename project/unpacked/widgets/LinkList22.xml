@@ -1,0 +1,41 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="LinkList22" locked="false" title="Media Sosial" type="LinkList" visible="false">
+            <b:widget-settings>
+              <b:widget-setting name="text-10">School teachers TGT</b:widget-setting>
+              <b:widget-setting name="shownum">3</b:widget-setting>
+              <b:widget-setting name="sorting">NONE</b:widget-setting>
+              <b:widget-setting name="link-1">#</b:widget-setting>
+              <b:widget-setting name="link-13">/</b:widget-setting>
+              <b:widget-setting name="link-2">#</b:widget-setting>
+              <b:widget-setting name="link-12">/</b:widget-setting>
+              <b:widget-setting name="link-15">/</b:widget-setting>
+              <b:widget-setting name="link-0">#</b:widget-setting>
+              <b:widget-setting name="link-14">/</b:widget-setting>
+              <b:widget-setting name="link-11">/</b:widget-setting>
+              <b:widget-setting name="link-10">/</b:widget-setting>
+              <b:widget-setting name="text-9">Scholarship Data</b:widget-setting>
+              <b:widget-setting name="link-9">/</b:widget-setting>
+              <b:widget-setting name="text-8">Civil Jobs</b:widget-setting>
+              <b:widget-setting name="link-7">/</b:widget-setting>
+              <b:widget-setting name="link-8">/</b:widget-setting>
+              <b:widget-setting name="link-5">/</b:widget-setting>
+              <b:widget-setting name="link-6">/</b:widget-setting>
+              <b:widget-setting name="link-3">#</b:widget-setting>
+              <b:widget-setting name="link-4">https://pakfutures.blogspot.com/p/home-page.html</b:widget-setting>
+              <b:widget-setting name="text-1">Instagram</b:widget-setting>
+              <b:widget-setting name="text-0">Facebook</b:widget-setting>
+              <b:widget-setting name="text-3">Telegram</b:widget-setting>
+              <b:widget-setting name="text-2">WhatsApp</b:widget-setting>
+              <b:widget-setting name="text-5">Computer Science </b:widget-setting>
+              <b:widget-setting name="text-4">YouTube</b:widget-setting>
+              <b:widget-setting name="text-7">Mechanical Jobs </b:widget-setting>
+              <b:widget-setting name="text-6">Electrical Jobs</b:widget-setting>
+              <b:widget-setting name="text-15">Bsc Paased Data</b:widget-setting>
+              <b:widget-setting name="text-11">Intermediate Candidates </b:widget-setting>
+              <b:widget-setting name="text-12">Qualifications of PhD</b:widget-setting>
+              <b:widget-setting name="text-13">Engineering Jobs</b:widget-setting>
+              <b:widget-setting name="text-14">Degree Holder Jobs</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-117.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3131372e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-87.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d38372e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+          </b:widget>
+          

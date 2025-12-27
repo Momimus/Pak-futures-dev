@@ -1,0 +1,12 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="postReactions" var="post">
+              <!-- Post Reactions -->
+              <b:if cond="data:allBylineItems.reactions">
+                <div class="post-reactions">
+                  <span><data:allBylineItems.reactions.label /></span>
+                  <div class="reactions-inner">
+                    <iframe allowtransparency="true" class="reactions-iframe" expr:src="data:posts[0].reactionsUrl" frameborder="0" name="reactions" scrolling="no" />
+                  </div>                  
+                </div>
+              </b:if>            
+            </b:includable>
+            

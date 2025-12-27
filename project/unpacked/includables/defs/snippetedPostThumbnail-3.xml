@@ -1,0 +1,8 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="snippetedPostThumbnail">
+  <div class="item-thumbnail">
+    <a expr:href="data:post.url">
+      <b:include data="{                         image: data:post.featuredImage,                         imageSizes: [72, 144],                         imageRatio: &quot;1:1&quot;,                         sourceSizes: &quot;72px&quot;                        }" name="responsiveImage" />
+    </a>
+  </div>
+</b:includable>
+            

@@ -1,0 +1,18 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="content">
+          &lt;script type='text/javascript'&gt;
+          //&lt;![CDATA[
+          <b:loop values="data:links" var="link">
+            <b:if cond="data:link.name == &quot;relatedPostsNum&quot;">
+              var relatedPostsNum = <data:link.target />;
+            </b:if>
+            <b:if cond="data:link.name == &quot;relatedPostsText&quot;">
+              var relatedPostsText = "<data:link.target />";
+            </b:if>
+            <b:if cond="data:link.name == &quot;loadMorePosts&quot;">
+              var loadMorePosts = "<data:link.target />";
+            </b:if>
+          </b:loop>
+          //]]&gt;
+          &lt;/script&gt;
+        </b:includable>
+          

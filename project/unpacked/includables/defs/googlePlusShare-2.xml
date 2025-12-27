@@ -1,0 +1,6 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" xmlns:ns2="http://schemas.google.com/g/2005" id="googlePlusShare">
+  <div class="goog-inline-block google-plus-share-container">
+    <ns2:plusone annotation="inline" expr:href="data:originalUrl.canonical.http" size="medium" source="blogger:blog:plusone" />
+  </div>
+</b:includable>
+            

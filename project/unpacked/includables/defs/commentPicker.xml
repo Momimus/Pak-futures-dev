@@ -1,0 +1,16 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" id="commentPicker" var="post">
+              <b:if cond="data:post.allowComments">
+                <div class="title-wrap comments-title">
+                  <h3><data:messages.postAComment /></h3>
+                </div>
+              </b:if>
+            <b:if cond="data:post.commentSource == 1">
+                <b:include data="post" name="iframeComments" />
+                <b:elseif cond="data:post.showThreadedComments">
+                  <b:include data="post" name="threadedComments" />
+                </b:elseif>
+                <b:else />
+                <b:include data="post" name="comments" />
+            </b:if>
+            </b:includable>
+            

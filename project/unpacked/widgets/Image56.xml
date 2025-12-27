@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image56" locked="false" title="Our Teachers 👨🏻‍🏫" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEijB2HQDZB5StOYf5WWJHNXFFsTgvIVCbTh5q4rCawjlEDX_vb-PvzVLuMDxc0X969oM5s29CTj7idVYbGVd0qdOYfio6jiL23GfcFyiUNlJnT4SrMeQ9MSoy91Ir142427L0K3N0Qj3c5I51Bdjq1rjAL_PI6zNKVFWbh86YDZCc4POZSKrFAHWqsPziwT=s1600</b:widget-setting>
+                  <b:widget-setting name="displayHeight">800</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">1600</b:widget-setting>
+                  <b:widget-setting name="link">https://www.mofept.gov.pk/</b:widget-setting>
+                  <b:widget-setting name="caption">works to expand access to quality education across Pakistan</b:widget-setting>
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-21.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d32312e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-13.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d31332e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+              

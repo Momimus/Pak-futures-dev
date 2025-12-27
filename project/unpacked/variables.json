@@ -1,0 +1,303 @@
+[
+  {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
+    "entry_type": "comment",
+    "text": "Variable definitions"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "keycolor",
+    "description": "Main Color",
+    "type": "color",
+    "default": "$(main.color)",
+    "value": "#1967D2"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "followByEmail",
+    "description": "Follow By Email Text",
+    "type": "string",
+    "default": "Get all latest content delivered straight to your inbox.",
+    "value": "Get all latest content delivered straight to your inbox."
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "main.color",
+    "description": "Theme Color",
+    "type": "color",
+    "default": "#1967D2",
+    "value": "#66d219"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "main.dark.color",
+    "description": "Dark Color",
+    "type": "color",
+    "default": "#1f2024",
+    "value": "#ffffff"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "header.bg",
+    "description": "Header Background",
+    "type": "color",
+    "default": "#ffffff",
+    "value": "#ffffff"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "menu.color",
+    "description": "Menu Color",
+    "type": "color",
+    "default": "#202124",
+    "value": "#F4A900"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "submenu.bg",
+    "description": "SubMenu Background",
+    "type": "color",
+    "default": "#fefefe",
+    "value": "#ffffff"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "submenu.color",
+    "description": "SubMenu Color",
+    "type": "color",
+    "default": "#202124",
+    "value": "#202124"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "title.color",
+    "description": "Title Color",
+    "type": "color",
+    "default": "#202124",
+    "value": "#4285F4"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Colors",
+      "selector": "body"
+    },
+    "name": "widget.title",
+    "description": "Widget Title Color",
+    "type": "color",
+    "default": "#202124",
+    "value": "#808080"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Body",
+      "selector": "body"
+    },
+    "name": "body.background.color",
+    "description": "Body Background Color",
+    "type": "color",
+    "default": "#f7f7ff",
+    "value": "#66d219"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Body",
+      "selector": "body"
+    },
+    "name": "body.background",
+    "description": "Background",
+    "type": "background",
+    "color": "$(body.background.color)",
+    "default": "$(color) url() repeat fixed top left",
+    "value": "#66d219 url() repeat fixed top left"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Body",
+      "selector": "body"
+    },
+    "name": "body.text.color",
+    "description": "Text Color",
+    "type": "color",
+    "default": "#656565",
+    "value": "#66d219"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Theme Body",
+      "selector": "body"
+    },
+    "name": "body.link.color",
+    "description": "Link Color",
+    "type": "color",
+    "default": "$(main.color)",
+    "value": "#f4a900"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Intro Section",
+      "selector": "#main-intro"
+    },
+    "name": "intro.title",
+    "description": "Intro Title Color",
+    "type": "color",
+    "default": "#202124",
+    "value": "#66d219"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Intro Section",
+      "selector": "#main-intro"
+    },
+    "name": "intro.hg",
+    "description": "Intro Title Highlight",
+    "type": "color",
+    "default": "#1967D2",
+    "value": "#4285f4"
+  },
+  {
+    "entry_type": "variable",
+    "group": {
+      "description": "Intro Section",
+      "selector": "#main-intro"
+    },
+    "name": "intro.text",
+    "description": "Intro Text Color",
+    "type": "color",
+    "default": "#2B3154",
+    "value": "#458bff"
+  },
+  {
+    "entry_type": "comment",
+    "text": "Extra Variables"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "body.text.font",
+    "description": "Font",
+    "hideEditor": "true",
+    "type": "font",
+    "default": "13px Open Sans, sans-serif",
+    "value": "13px Open Sans, sans-serif"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "posts.background.color",
+    "description": "Post background color",
+    "hideEditor": "true",
+    "type": "color",
+    "default": "#ffffff",
+    "value": "#ffffff"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "tabs.font",
+    "description": "Font 2",
+    "hideEditor": "true",
+    "type": "font",
+    "default": "13px Open Sans, sans-serif",
+    "value": "13px Open Sans, sans-serif"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "posts.title.color",
+    "description": "Post title color",
+    "hideEditor": "true",
+    "type": "color",
+    "default": "#000000",
+    "value": "#000000"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "posts.text.color",
+    "description": "Post text color",
+    "hideEditor": "true",
+    "type": "color",
+    "default": "#656565",
+    "value": "#656565"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "posts.icons.color",
+    "description": "Post icons color",
+    "hideEditor": "true",
+    "type": "color",
+    "default": "$(main.color)",
+    "value": "#3c5a98"
+  },
+  {
+    "entry_type": "variable",
+    "group": null,
+    "name": "labels.background.color",
+    "description": "Label background color",
+    "hideEditor": "true",
+    "type": "color",
+    "default": "$(main.color)",
+    "value": "#3c5a98"
+  }
+]

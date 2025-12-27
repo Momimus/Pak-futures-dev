@@ -1,0 +1,15 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image8" locked="true" title="Overseas Jobs" type="Image" version="2" visible="true">
+            <b:widget-settings>
+              <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgd5HwKUzTUPjq2pw5xDreIXHKj0n3cHwMWWX1bH2HUr4Mykaz4gwVZ5fNDp0XuPd-Czp0z63EhD_UJQJVaIAATQ9KsmJnuMysGDmXwA9XqiWyxAtuMNKhIW09KziuM1RDl9xWzOF6OkBIPJcSrtmIqFoy60GJB2GFZgq_bkB0sQtLV2Ptnhd-mDVX5OFDW=s225</b:widget-setting>
+              <b:widget-setting name="displayHeight">225</b:widget-setting>
+              <b:widget-setting name="sectionWidth">150</b:widget-setting>
+              <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+              <b:widget-setting name="displayWidth">225</b:widget-setting>
+              <b:widget-setting name="link">https://pakfutures.blogspot.com/p/overseas-jobs.html</b:widget-setting>
+              <b:widget-setting name="caption">(6 Job Positions)</b:widget-setting>
+            </b:widget-settings>
+            <!--INCLUDABLE includables/defs/main-29.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d32392e786d6c222c226964656e746966696572223a226d61696e227d-->
+            <!--INCLUDABLE includables/defs/content-21.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d32312e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+            <!--INCLUDABLE includables/defs/servTileCard-3.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f7365727654696c65436172642d332e786d6c222c226964656e746966696572223a227365727654696c6543617264227d-->
+          </b:widget>
+          

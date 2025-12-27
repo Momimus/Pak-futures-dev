@@ -1,0 +1,20 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="postShareButtons" var="post">
+              <!-- Post ShareButtons -->
+              <b:if cond="data:allBylineItems.share">
+                <div class="post-share">
+                  <ul class="share-links social social-color">
+                    <li class="facebook"><a class="facebook" expr:href="&quot;https://www.facebook.com/sharer.php?u=&quot; + data:post.url" onclick="window.open(this.href, 'windowName', 'width=550, height=650, left=24, top=24, scrollbars, resizable'); return false;" rel="nofollow" /></li>
+                    <li class="x-twitter"><a class="x-twitter" expr:href="&quot;https://twitter.com/share?url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title" onclick="window.open(this.href, 'windowName', 'width=550, height=450, left=24, top=24, scrollbars, resizable'); return false;" rel="nofollow" /></li>
+                                       <li class="pinterest"><a class="pinterest" expr:href="&quot;https://www.pinterest.com/pin/create/button/?url=&quot; + data:post.url + &quot;&amp;media=&quot; + data:post.featuredImage + &quot;&amp;description=&quot; + data:post.title" onclick="window.open(this.href, 'windowName', 'width=735, height=750, left=24, top=24, scrollbars, resizable'); return false;" rel="nofollow" /></li> 
+                    <li class="linkedin"><a class="linkedin" expr:href="&quot;https://www.linkedin.com/shareArticle?url=&quot; + data:post.url" onclick="window.open(this.href, 'windowName', 'width=550, height=650, left=24, top=24, scrollbars, resizable'); return false;" rel="nofollow" /></li>
+                    <b:if cond="data:blog.isMobileRequest">
+                      <li class="whatsapp whatsapp-mobile"><a class="whatsapp" expr:href="&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url" rel="nofollow" target="_blank" /></li>
+                      <b:else />
+                      <li class="whatsapp whatsapp-desktop"><a class="whatsapp" expr:href="&quot;https://web.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url" onclick="window.open(this.href, 'windowName', 'width=900, height=550, left=24, top=24, scrollbars, resizable'); return false;" rel="nofollow" /></li>
+                    </b:if>
+                    <li class="email"><a class="email" expr:href="&quot;mailto:?subject=&quot; + data:post.title + &quot;&amp;body=&quot; + data:post.url" onclick="window.open(this.href, 'windowName', 'width=500, height=400, left=24, top=24, scrollbars, resizable'); return false;" rel="nofollow" /></li>
+                  </ul>
+                </div>
+              </b:if>
+            </b:includable>
+            

@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image48" locked="false" title="Housing Schemes" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEjLUjcLhKFEhgzuOqLOlcYcLr2Vl1KTnrobjrd9L5YY9K-a7SwnOwHu3-G6r0vYDkLjKXPlgT_vk8-bx3o7BOwT6Z7OdhTi-4kQ5brxC-DjBgWopVhFX37Er0VQNeNAI-RMDMQzZ9dt_8WVrmsxUcVXhWcfE7X5qF0N6hSAoXKwbtnqJayKG1Q3cld1wbjl=s375</b:widget-setting>
+                  <b:widget-setting name="displayHeight">281</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">375</b:widget-setting>
+                  <b:widget-setting name="link">Housing Schemes</b:widget-setting>
+                  <b:widget-setting name="caption" />
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-57.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d35372e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-48.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d34382e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+              

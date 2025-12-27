@@ -1,0 +1,6 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="image">
+      <a class="header-image-wrapper" expr:href="data:blog.homepageUrl">
+        <img expr:alt="data:blog.title.escaped" expr:data-height="data:height" expr:data-width="data:width" expr:src="data:image" />
+      </a>
+    </b:includable>
+                

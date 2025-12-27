@@ -1,0 +1,7 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="postTimestamp" var="post">
+              <!-- Post Timestamp -->
+              <b:if cond="data:allBylineItems.timestamp">
+                <span class="post-date published" expr:datetime="data:post.date.iso8601"><data:post.date /></span>
+              </b:if>
+            </b:includable>
+            

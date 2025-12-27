@@ -1,0 +1,37 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="content">
+            <div class="widget-content">
+              <ul>
+                <b:loop values="data:links" var="link">
+                  <li>
+                    <a expr:aria-label="data:link.name" expr:href="data:link.target">
+                      <b:if cond="data:link.name == &quot;Facebook&quot;">
+                        <b:include name="iconSocmedFacebook" />
+                        <b:elseif cond="data:link.name == &quot;WhatsApp&quot;">
+                          <b:include name="iconSocmedWhatsApp" />
+                        </b:elseif>
+                        <b:elseif cond="data:link.name == &quot;Instagram&quot;">
+                          <b:include name="iconSocmedInstagram" />
+                        </b:elseif>
+                        <b:elseif cond="data:link.name == &quot;Twitter&quot;">
+                          <b:include name="iconSocmedTwitter" />
+                        </b:elseif>
+                        <b:elseif cond="data:link.name == &quot;TikTok&quot;">
+                          <b:include name="iconSocmedTikTok" />
+                        </b:elseif>
+                        <b:elseif cond="data:link.name == &quot;YouTube&quot;">
+                          <b:include name="iconSocmedYouTube" />
+                        </b:elseif>
+                        <b:elseif cond="data:link.name == &quot;Pinterest&quot;">
+                          <b:include name="iconSocmedPinterest" />
+                        </b:elseif>
+                        <b:elseif cond="data:link.name == &quot;Telegram&quot;">
+                          <b:include name="iconSocmedTelegram" />
+                        </b:elseif>
+                      </b:if>
+                    </a>
+                  </li>
+                </b:loop>
+              </ul>
+            </div>
+          </b:includable>
+          

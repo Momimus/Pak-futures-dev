@@ -1,0 +1,6 @@
+<b:includable xmlns:b="http://www.google.com/2005/gml/b" id="postHeader" var="post">
+              <b:include cond="data:view.isPost" data="post" name="postBreadcrumbs" />
+              <b:include data="post" name="postTitle" />
+              <b:include cond="data:view.isPost" data="post" name="headerByline" />
+            </b:includable>
+            

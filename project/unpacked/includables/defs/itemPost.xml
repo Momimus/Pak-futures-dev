@@ -1,0 +1,11 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="itemPost" var="post">
+              <!-- Item Post Content -->
+              <div class="post-item-inner">
+                <b:include data="post" name="postMeta" />
+                <b:include data="post" name="postHeader" />
+                <b:include data="post" name="postBody" />
+                <b:include cond="data:view.isPost" data="post" name="footerBylines" />
+              </div>
+              <b:include cond="data:view.isPost" data="post" name="postFooter" />
+            </b:includable>
+            

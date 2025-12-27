@@ -1,0 +1,4 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:expr="http://www.google.com/2005/gml/expr" id="authorProfileImage">
+  <img class="profile-img" expr:alt="data:messages.myPhoto" expr:height="data:authorPhoto.height" expr:src="data:authorPhoto.image" expr:width="data:authorPhoto.width" />
+</b:includable>
+            

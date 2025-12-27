@@ -1,0 +1,128 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="HTML29" locked="false" title="" type="HTML" visible="false">
+             <b:widget-settings>
+               <b:widget-setting name="content">&lt;div class="section subcat" id="sub-cat-list" name="Service List 1"&gt;
+
+    &lt;div class="widget Image" data-version="2" id="Image6"&gt;
+        &lt;div class="widget-content"&gt;
+            &lt;a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html"&gt;
+                &lt;div class="serv-tile-box-avatar"&gt;
+                    &lt;img alt="FPSC Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh-g5bZjhhvG5tLzkhMcxIf_IhiaoCAFfLhOFBGLiCYv_kNryMFx0udXjoNFY_8pHRbzL2i-TfniXAQ0onuaiHVpe2QWb5DXA7m-uDs8ERRiOkXha7XGWG3t04DgIUhRQc8eBisVr9dbTRSIKqU3vR7R4yN6KygukBOaE81PIjfkV_HgGN_Zm4GIM_p3km/s500/Untitled%20design%20(14).gif" /&gt;
+                &lt;/div&gt;
+                &lt;div class="serv-tile-box-info"&gt;
+                    &lt;h3 class="serv-tile-box-title"&gt;Pak Jobs&lt;/h3&gt;
+
+                    &lt;/div&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="widget Image" data-version="2" id="Image6"&gt;
+        &lt;div class="widget-content"&gt;
+            &lt;a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html"&gt;
+                &lt;div class="serv-tile-box-avatar"&gt;
+                    &lt;img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6amcII_lIRqym2dFvkxdi-55gIaJAL8jJi7KGKPmscACXYZ206YDL6NkS-LZbwI2Tt8JaxfOfhrqtIBqRb1AO-40BeM6y7PilswJki_8bcTCFNfiY0f9w_JIeriIQGdAdzVXwmgKf5leJaq8qqyNhN22a5bcalK1_cmW8FAt9a2unADaY3UjV7FNH4G41/s500/Untitled%20design%20(13).gif" /&gt;
+                &lt;/div&gt;
+                &lt;div class="serv-tile-box-info"&gt;
+                    &lt;h3 class="serv-tile-box-title"&gt;Finder&lt;/h3&gt;
+                &lt;/div&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="widget Image" data-version="2" id="Image6"&gt;
+        &lt;div class="widget-content"&gt;
+            &lt;a class="serv-tile-box-link" href="https://www.pakfutures.com/p/all-govt-jobs.html"&gt;
+                &lt;div class="serv-tile-box-avatar"&gt;
+                    &lt;img alt="Govt Jobs"
+                        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGAgcxmxoDnC0WFPunb0ShQzHGiQy_hEplcm7xXJFAPaF3cQhxjyfJAUr44HfbAOF5m2xBtLQ4k4NWSZk7LXcChm2lDRaridNCjS57I-zpztCM4TL1cHXjX2N0P9sgsruCpQbwfs002ANwppG6MLq44KQUizFZt4riJZuJf3dZ9lwM0yGKbWIm_ds8jetV/s320/Untitled%20design%20(12).gif" /&gt;
+                &lt;/div&gt;
+                &lt;div class="serv-tile-box-info"&gt;
+                    &lt;h3 class="serv-tile-box-title"&gt;Reseacher&lt;/h3&gt;
+
+                &lt;/div&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;style&gt;
+    #sub-cat-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #sub-cat-list .widget.Image {
+        width: calc(16.5% - 20px);
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    #sub-cat-list .serv-tile-box-link {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sub-cat-list .serv-tile-box-avatar {
+        flex-shrink: 1;
+    }
+
+    #sub-cat-list .serv-tile-box-info {
+        flex-grow: 1;
+        overflow: hidden;
+    }
+
+    #sub-cat-list .serv-tile-box-title {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    /* Responsive: Laptop Small */
+    @media (max-width: 1366px) {
+        #sub-cat-list .widget.Image {
+            width: calc(25% - 20px);
+        }
+    }
+
+    /* Responsive: Tablet */
+    @media (max-width: 700px) {
+
+        #sub-cat-list {
+            gap: 5px;
+        }
+
+        #sub-cat-list .widget.Image {
+            width: calc(33.33% - 15px);
+            padding: 7.5px;
+        }
+
+        #sub-cat-list .serv-tile-box-title {
+            font-size: 0.7rem!important;
+            line-height: 1.2;
+            margin-top: 0.5rem!important;
+            display: inline-block;
+        }
+
+    }
+
+
+    /* Responsive: Laptop Small */
+    @media (max-width: 300px) {
+        #sub-cat-list .widget.Image {
+            width: calc(50% - 15px);
+        }
+    }
+
+&lt;/style&gt;&lt;/div&gt;</b:widget-setting>
+             </b:widget-settings>
+             <!--INCLUDABLE includables/defs/main-207.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d3230372e786d6c222c226964656e746966696572223a226d61696e227d-->
+           </b:widget>
+           

@@ -1,0 +1,14 @@
+<b:widget xmlns:b="http://www.google.com/2005/gml/b" id="Image50" locked="false" title="Our Doctors 👨🏻‍⚕️" type="Image" visible="true">
+                <b:widget-settings>
+                  <b:widget-setting name="displayUrl">https://blogger.googleusercontent.com/img/a/AVvXsEgM8A87UIEQAm4ThfMBfpnS0Emun8qwAw47d8b8a63rYDkVCVYbsYFDGqW7sLZWKNQIdOYiPqfT9DOIfV1YgAgeiAVFtFnIHaQgisaYDUZfYg6jNXFh4BRFGeoIpkeiKjGGif-7wwGjygHwX34gXxapRqJ0VspJjM1XiOOiHJHhdH4zkkYb7nHI11LPVnlx=s1396</b:widget-setting>
+                  <b:widget-setting name="displayHeight">791</b:widget-setting>
+                  <b:widget-setting name="sectionWidth">150</b:widget-setting>
+                  <b:widget-setting name="shrinkToFit">false</b:widget-setting>
+                  <b:widget-setting name="displayWidth">1396</b:widget-setting>
+                  <b:widget-setting name="link">https://www.nhsrc.gov.pk/</b:widget-setting>
+                  <b:widget-setting name="caption">the process where your eyes and brain work together and use light reflecting off things around you to create the ability to see.</b:widget-setting>
+                </b:widget-settings>
+                <!--INCLUDABLE includables/defs/main-22.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f6d61696e2d32322e786d6c222c226964656e746966696572223a226d61696e227d-->
+                <!--INCLUDABLE includables/defs/content-14.xml | PCK_PLACEHOLDER 7b226b696e64223a22696e636c756461626c65222c2266696c65223a22696e636c756461626c65732f646566732f636f6e74656e742d31342e786d6c222c226964656e746966696572223a22636f6e74656e74227d-->
+              </b:widget>
+              

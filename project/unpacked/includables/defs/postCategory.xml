@@ -1,0 +1,9 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr" id="postCategory" var="post">
+              <!-- Post Label/Category -->
+              <b:if cond="data:post.labels">
+                <a class="post-tag" expr:href="data:post.labels.first.url">
+                  <data:post.labels.first.name />
+                </a>
+              </b:if>
+            </b:includable>
+            

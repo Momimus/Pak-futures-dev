@@ -1,0 +1,12 @@
+<b:includable xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" id="headerByline">
+  <b:if cond="data:widgets.Blog.first.headerByline">
+    <div class="post-header">
+      <div class="post-header-line-1">
+        <b:with value="&quot;header-1&quot;" var="regionName">
+          <b:include data="data:widgets.Blog.first.headerByline.items" name="bylineRegion" />
+        </b:with>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+            
